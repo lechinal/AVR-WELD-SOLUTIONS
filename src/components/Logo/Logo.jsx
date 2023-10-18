@@ -5,7 +5,13 @@ import styles from './Logo.module.css';
 function Logo() {
   return (
     <div className={styles.logo}>
-      <img src={logoImgMic} alt="Logo" width="270" height="250" />
+      <img
+        className={styles.logoImg}
+        src={logoImgMic}
+        alt="Logo"
+        width="270"
+        height="250"
+      />
     </div>
   );
 }
