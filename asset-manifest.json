@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.fd169c3f.css",
-    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.f0e90ad7.js",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.c68fde2b.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.47f26df4.js",
     "static/media/logoImgMic.png": "/AVR-WELD-SOLUTIONS/static/media/logoImgMic.e31c7ced872b55e0f206.png",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.fd169c3f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.fd169c3f.css.map",
-    "main.f0e90ad7.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.f0e90ad7.js.map"
+    "main.c68fde2b.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.c68fde2b.css.map",
+    "main.47f26df4.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.47f26df4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd169c3f.css",
-    "static/js/main.f0e90ad7.js"
+    "static/css/main.c68fde2b.css",
+    "static/js/main.47f26df4.js"
   ]
 }
