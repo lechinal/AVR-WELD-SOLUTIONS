@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Navigation.module.css';
 
 function Navigation() {
   return (
-    <nav>
-      <ul>
+    <nav className={styles.nav}>
+      <ul className={styles.navList}>
         <li>
           <a href="/about-us">About Us</a>
         </li>
