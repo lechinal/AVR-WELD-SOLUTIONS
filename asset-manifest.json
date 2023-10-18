@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.7acaea2f.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.fbd8312c.js",
+    "static/media/logoImg.png": "/AVR-WELD-SOLUTIONS/static/media/logoImg.d03f8b5ff8a54ce2fc81.png",
+    "index.html": "/AVR-WELD-SOLUTIONS/index.html",
+    "main.7acaea2f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.7acaea2f.css.map",
+    "main.fbd8312c.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.fbd8312c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.fbd8312c.js"
+  ]
+}
