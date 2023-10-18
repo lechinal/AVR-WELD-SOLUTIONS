@@ -1,5 +1,6 @@
 .nav {
   padding-right: 15px;
+  font-size: 30px;
 }
 .navList {
   display: flex;
@@ -7,4 +8,9 @@
   align-items: center;
   gap: 25px;
   list-style-type: none;
+  text-decoration: none;
+}
+.navList li a {
+  text-decoration: none;
+  font-weight: bold;
 }
