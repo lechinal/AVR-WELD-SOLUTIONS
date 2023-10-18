@@ -11,7 +11,7 @@ function Header() {
         <h1 className={styles.headerTitle}>
           AVR WELD SOLUTIONS
           <h2 className={styles.headerSubTitle}>
-            Montaje și Reparații Tuberie Industrială și Structuri Metalice
+            Montaje și Reparații Tuberie Industrială, Structuri Metalice
           </h2>
         </h1>
       </div>
