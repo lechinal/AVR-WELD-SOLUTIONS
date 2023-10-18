@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.7acaea2f.css",
-    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.fbd8312c.js",
-    "static/media/logoImg.png": "/AVR-WELD-SOLUTIONS/static/media/logoImg.d03f8b5ff8a54ce2fc81.png",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.fd169c3f.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.f0e90ad7.js",
+    "static/media/logoImgMic.png": "/AVR-WELD-SOLUTIONS/static/media/logoImgMic.e31c7ced872b55e0f206.png",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.7acaea2f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.7acaea2f.css.map",
-    "main.fbd8312c.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.fbd8312c.js.map"
+    "main.fd169c3f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.fd169c3f.css.map",
+    "main.f0e90ad7.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.f0e90ad7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.fbd8312c.js"
+    "static/css/main.fd169c3f.css",
+    "static/js/main.f0e90ad7.js"
   ]
 }
