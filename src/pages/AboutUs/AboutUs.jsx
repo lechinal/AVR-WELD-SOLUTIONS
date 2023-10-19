@@ -34,10 +34,10 @@ function AboutUs() {
             bgColor="white"
             borderColor="black"
             fontWeight={700}
-            border="1px solid black"
             hoverTextColor="white"
             hoverBgColor="black"
-            hoverBorderColor="black"
+            borderSolid="1px solid black"
+            borderRadius="15px"
           />
           <CustomButton
             text="Contact Us"
@@ -47,7 +47,8 @@ function AboutUs() {
             fontWeight={700}
             hoverTextColor="white"
             hoverBgColor="black"
-            hoverBorderColor="black"
+            borderSolid="1px solid black"
+            borderRadius="15px"
           />
         </div>
       </div>
