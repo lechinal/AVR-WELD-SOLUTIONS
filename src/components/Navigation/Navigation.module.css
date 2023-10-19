@@ -1,22 +1,10 @@
 .nav {
   font-size: 30px;
   border-radius: 35px;
-  background-color: black;
+  /* background-color: black; */
   opacity: 0.7;
 
   margin-right: 15px;
-  padding-right: 30px;
-}
-.navList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  list-style-type: none;
-  text-decoration: none;
-}
-.navList li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #f3f6f9;
+  padding-right: 15px;
+  padding-left: 15px;
 }

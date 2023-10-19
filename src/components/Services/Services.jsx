@@ -8,7 +8,7 @@ import weld4 from '../../images/servicesImg/weld-4.jpg';
 
 function Services() {
   return (
-    <div className={styles.services}>
+    <div id="services" className={styles.services}>
       <div className={styles.titleBox}>
         <h1>Services</h1>
         <p>

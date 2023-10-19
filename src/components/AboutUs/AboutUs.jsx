@@ -5,7 +5,7 @@ import CustomButton from '../CustomButton/CustomButton';
 
 function AboutUs() {
   return (
-    <div className={styles.aboutUsBox}>
+    <div id="about-us" className={styles.aboutUsBox}>
       <div className={styles.aboutUsDetails}>
         <h1 className={styles.aboutUsTitle}>Despre noi</h1>
 

@@ -10,6 +10,12 @@
     0.5em 0.5em 1.5em hsla(0, 0%, 50%, 0.8);
 
   background-color: rgb(43, 108, 163);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .headerTitleBox {
@@ -21,7 +27,7 @@
 }
 
 .headerTitle {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .headerSubTitle {
