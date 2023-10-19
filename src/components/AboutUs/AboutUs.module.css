@@ -1,8 +1,8 @@
 .aboutUsBox {
   /* background-image: url('../../images/avr_11.jpeg');
   background-size: cover; */
-  padding-top: 20px;
 
+  padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 10px;
 
@@ -34,12 +34,6 @@
   text-decoration-color: #edc84b;
 }
 
-/* .aboutUsSubTitle {
-  color: #edc84b;
-  font-size: 70px;
-  font-family: Roboto;
-} */
-
 .aboutUsImgBox {
   display: flex;
   align-items: center;
@@ -58,4 +52,12 @@
   font-family: Roboto;
   font-style: italic;
   font-weight: bold;
+}
+
+.aboutUsBtnBox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
 }

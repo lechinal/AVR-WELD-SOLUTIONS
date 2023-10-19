@@ -8,12 +8,10 @@ function Header() {
     <div className={styles.header}>
       <Logo />
       <div className={styles.headerTitleBox}>
-        <h1 className={styles.headerTitle}>
-          AVR WELD SOLUTIONS
-          <h2 className={styles.headerSubTitle}>
-            Montaje și Reparații Tuberie Industrială, Structuri Metalice
-          </h2>
-        </h1>
+        <h1 className={styles.headerTitle}>AVR WELD SOLUTIONS</h1>
+        <h2 className={styles.headerSubTitle}>
+          Montaje și Reparații Tuberie Industrială, Structuri Metalice
+        </h2>
       </div>
       <Navigation />
     </div>

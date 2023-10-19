@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomButton from 'components/CustomButton/CustomButton';
 import styles from './Services.module.css';
 import weld1 from '../../images/servicesImg/weld-1.jpeg';
 import weld2 from '../../images/servicesImg/weld-2.jpg';
@@ -15,29 +16,74 @@ function Services() {
           quidem.
         </p>
       </div>
+
       <div className={styles.cards}>
         <div className="card">
           <h2>Card 1 Title</h2>
           <img src={weld1} alt="weld1" width={255} height={255} />
           <p>Lorem ipsum for Card 1.</p>
+          <CustomButton
+            text="More..."
+            textColor="black"
+            bgColor="white"
+            borderColor="black"
+            fontWeight={700}
+            border="1px solid black"
+            hoverTextColor="white"
+            hoverBgColor="black"
+            hoverBorderColor="black"
+          />
         </div>
 
         <div className="card">
           <h2>Card 2 Title</h2>
           <img src={weld2} alt="weld1" width={255} height={255} />
           <p>Lorem ipsum for Card 1.</p>
+          <CustomButton
+            text="More..."
+            textColor="black"
+            bgColor="white"
+            borderColor="black"
+            fontWeight={700}
+            border="1px solid black"
+            hoverTextColor="white"
+            hoverBgColor="black"
+            hoverBorderColor="black"
+          />
         </div>
 
         <div className="card">
           <h2>Card 3 Title</h2>
           <img src={weld3} alt="weld1" width={255} height={255} />
           <p>Lorem ipsum for Card 1.</p>
+          <CustomButton
+            text="More..."
+            textColor="black"
+            bgColor="white"
+            borderColor="black"
+            fontWeight={700}
+            border="1px solid black"
+            hoverTextColor="white"
+            hoverBgColor="black"
+            hoverBorderColor="black"
+          />
         </div>
 
         <div className="card">
           <h2>Card 4 Title</h2>
           <img src={weld4} alt="weld1" width={255} height={255} />
           <p>Lorem ipsum for Card 1.</p>
+          <CustomButton
+            text="More..."
+            textColor="black"
+            bgColor="white"
+            borderColor="black"
+            fontWeight={700}
+            border="1px solid black"
+            hoverTextColor="white"
+            hoverBgColor="black"
+            hoverBorderColor="black"
+          />
         </div>
       </div>
     </div>

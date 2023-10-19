@@ -6,6 +6,9 @@ function Navigation() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li>
+          <a href="/about-us">Home</a>
+        </li>
+        <li>
           <a href="/about-us">About Us</a>
         </li>
         <li>
