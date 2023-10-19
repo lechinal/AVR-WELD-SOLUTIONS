@@ -39,7 +39,7 @@ function Services() {
             hoverBgColor="black"
             hoverBorderColor="black"
             marginBottom="25px"
-            borderRadius="10px"
+            borderRadius="15px"
           />
         </div>
 
@@ -64,7 +64,7 @@ function Services() {
             hoverBgColor="black"
             hoverBorderColor="black"
             marginBottom="25px"
-            borderRadius="10px"
+            borderRadius="15px"
           />
         </div>
 
@@ -89,7 +89,7 @@ function Services() {
             hoverBgColor="black"
             hoverBorderColor="black"
             marginBottom="25px"
-            borderRadius="10px"
+            borderRadius="15px"
           />
         </div>
 
@@ -114,7 +114,7 @@ function Services() {
             hoverBgColor="black"
             hoverBorderColor="black"
             marginBottom="25px"
-            borderRadius="10px"
+            borderRadius="15px"
           />
         </div>
       </div>
