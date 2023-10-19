@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './AboutUs.module.css';
 import avr7 from '../../images/avr_7.jpeg';
-import CustomButton from '../CustomButton/CustomButton';
+import CustomButton from '../../components/CustomButton/CustomButton';
 
 function AboutUs() {
   return (

@@ -18,9 +18,15 @@ function Services() {
       </div>
 
       <div className={styles.cards}>
-        <div className="card">
+        <div className={styles.card}>
           <h2>Card 1 Title</h2>
-          <img src={weld1} alt="weld1" width={255} height={255} />
+          <img
+            className={styles.cardImg}
+            src={weld1}
+            alt="weld1"
+            width={255}
+            height={255}
+          />
           <p>Lorem ipsum for Card 1.</p>
           <CustomButton
             text="More..."
@@ -28,16 +34,24 @@ function Services() {
             bgColor="white"
             borderColor="black"
             fontWeight={700}
-            border="1px solid black"
+            borderSolid="1px solid black"
             hoverTextColor="white"
             hoverBgColor="black"
             hoverBorderColor="black"
+            marginBottom="25px"
+            borderRadius="10px"
           />
         </div>
 
-        <div className="card">
+        <div className={styles.card}>
           <h2>Card 2 Title</h2>
-          <img src={weld2} alt="weld1" width={255} height={255} />
+          <img
+            className={styles.cardImg}
+            src={weld2}
+            alt="weld1"
+            width={255}
+            height={255}
+          />
           <p>Lorem ipsum for Card 1.</p>
           <CustomButton
             text="More..."
@@ -45,16 +59,24 @@ function Services() {
             bgColor="white"
             borderColor="black"
             fontWeight={700}
-            border="1px solid black"
+            borderSolid="1px solid black"
             hoverTextColor="white"
             hoverBgColor="black"
             hoverBorderColor="black"
+            marginBottom="25px"
+            borderRadius="10px"
           />
         </div>
 
-        <div className="card">
+        <div className={styles.card}>
           <h2>Card 3 Title</h2>
-          <img src={weld3} alt="weld1" width={255} height={255} />
+          <img
+            className={styles.cardImg}
+            src={weld3}
+            alt="weld1"
+            width={255}
+            height={255}
+          />
           <p>Lorem ipsum for Card 1.</p>
           <CustomButton
             text="More..."
@@ -62,16 +84,24 @@ function Services() {
             bgColor="white"
             borderColor="black"
             fontWeight={700}
-            border="1px solid black"
+            borderSolid="1px solid black"
             hoverTextColor="white"
             hoverBgColor="black"
             hoverBorderColor="black"
+            marginBottom="25px"
+            borderRadius="10px"
           />
         </div>
 
-        <div className="card">
+        <div className={styles.card}>
           <h2>Card 4 Title</h2>
-          <img src={weld4} alt="weld1" width={255} height={255} />
+          <img
+            className={styles.cardImg}
+            src={weld4}
+            alt="weld1"
+            width={255}
+            height={255}
+          />
           <p>Lorem ipsum for Card 1.</p>
           <CustomButton
             text="More..."
@@ -79,10 +109,12 @@ function Services() {
             bgColor="white"
             borderColor="black"
             fontWeight={700}
-            border="1px solid black"
+            borderSolid="1px solid black"
             hoverTextColor="white"
             hoverBgColor="black"
             hoverBorderColor="black"
+            marginBottom="25px"
+            borderRadius="10px"
           />
         </div>
       </div>

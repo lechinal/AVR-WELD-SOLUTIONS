@@ -20,3 +20,13 @@
   text-align: center;
   gap: 30px;
 }
+
+.card {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.cardImg {
+  max-width: 90%;
+  border-radius: 20px;
+}

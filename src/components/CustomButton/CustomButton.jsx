@@ -7,10 +7,12 @@ function CustomButton({
   bgColor,
   borderColor,
   fontWeight,
-  border,
+  borderSolid,
   hoverTextColor,
   hoverBgColor,
   hoverBorderColor,
+  marginBottom,
+  borderRadius,
 }) {
   return (
     <Button
@@ -19,11 +21,14 @@ function CustomButton({
         backgroundColor: bgColor,
         borderColor: borderColor,
         fontWeight: fontWeight,
-        border: '1px solid black',
+        border: borderSolid,
+        marginBottom: marginBottom,
+        borderRadius: borderRadius,
         '&:hover': {
           color: hoverTextColor,
           backgroundColor: hoverBgColor,
           borderColor: hoverBorderColor,
+          borderRadius: borderRadius,
         },
       }}
     >

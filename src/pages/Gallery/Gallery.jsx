@@ -4,7 +4,7 @@ import styles from '../Gallery/Gallery.module.css';
 function Gallery() {
   return (
     <div id="gallery" className={styles.gallery}>
-      Gallery
+      <h1>Gallery</h1>
     </div>
   );
 }

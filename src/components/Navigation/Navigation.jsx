@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -6,17 +7,6 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import styles from './Navigation.module.css';
 
 function Navigation() {
-  const [currentSection, setCurrentSection] = useState(null);
-
-  const scrollToSection = sectionId => {
-    setCurrentSection(sectionId);
-
-    const section = document.getElementById(currentSection);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <nav className={styles.nav}>
       <ButtonGroup
@@ -25,73 +15,100 @@ function Navigation() {
         aria-label="navigation buttons"
         sx={{ height: '50px' }}
       >
-        <Button
-          onClick={() => scrollToSection('about-us')}
-          className={styles.navButton}
-          sx={{
-            color: 'white',
-            fontWeight: 'bold',
+        <NavLink to="/">
+          <Button
+            className={styles.navButton}
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
 
-            '&:hover': {
-              color: 'black',
-              backgroundColor: 'white',
+              '&:hover': {
+                color: 'black',
+                backgroundColor: 'white',
 
-              borderRadius: '15px',
-            },
-          }}
-        >
-          About Us
-        </Button>
-        <Button
-          onClick={() => scrollToSection('services')}
-          className={styles.navButton}
-          sx={{
-            color: 'white',
-            fontWeight: 'bold',
+                borderRadius: '15px',
+              },
+            }}
+          >
+            Home
+          </Button>
+        </NavLink>
+        <NavLink to="/About">
+          <Button
+            className={styles.navButton}
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
 
-            '&:hover': {
-              color: 'black',
-              backgroundColor: 'white',
+              '&:hover': {
+                color: 'black',
+                backgroundColor: 'white',
 
-              borderRadius: '15px',
-            },
-          }}
-        >
-          Services
-        </Button>
-        <Button
-          onClick={() => scrollToSection('gallery')}
-          className={styles.navButton}
-          sx={{
-            color: 'white',
-            fontWeight: 'bold',
+                borderRadius: '15px',
+              },
+            }}
+          >
+            About Us
+          </Button>
+        </NavLink>
 
-            '&:hover': {
-              color: 'black',
-              backgroundColor: 'white',
+        <NavLink to="/Services">
+          <Button
+            className={styles.navButton}
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
 
-              borderRadius: '15px',
-            },
-          }}
-        >
-          Gallery
-        </Button>
-        <Button
-          className={styles.navButton}
-          sx={{
-            color: 'white',
-            fontWeight: 'bold',
+              '&:hover': {
+                color: 'black',
+                backgroundColor: 'white',
 
-            '&:hover': {
-              color: 'black',
-              backgroundColor: 'white',
+                borderRadius: '15px',
+              },
+            }}
+          >
+            Services
+          </Button>
+        </NavLink>
 
-              borderRadius: '15px',
-            },
-          }}
-        >
-          Contact
-        </Button>
+        <NavLink to="/Gallery">
+          <Button
+            className={styles.navButton}
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
+
+              '&:hover': {
+                color: 'black',
+                backgroundColor: 'white',
+
+                borderRadius: '15px',
+              },
+            }}
+          >
+            Gallery
+          </Button>
+        </NavLink>
+
+        <NavLink>
+          <Button
+            className={styles.navButton}
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
+              // paddingBottom: '15px',
+
+              '&:hover': {
+                color: 'black',
+                backgroundColor: 'white',
+
+                borderRadius: '15px',
+              },
+            }}
+          >
+            Contact
+          </Button>
+        </NavLink>
       </ButtonGroup>
     </nav>
   );

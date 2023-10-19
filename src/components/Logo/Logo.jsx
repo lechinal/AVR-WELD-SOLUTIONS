@@ -9,8 +9,8 @@ function Logo() {
         className={styles.logoImg}
         src={logoImgMic}
         alt="Logo"
-        width="170"
-        height="150"
+        width="140"
+        height="100"
       />
     </div>
   );
