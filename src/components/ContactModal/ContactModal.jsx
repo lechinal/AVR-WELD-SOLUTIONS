@@ -20,6 +20,7 @@ function ContactModal({ onClose }) {
         borderSolid="1px solid black"
         borderRadius="15px"
         onClick={onClose}
+        marginBottom="15px"
       />
     </div>
   );
