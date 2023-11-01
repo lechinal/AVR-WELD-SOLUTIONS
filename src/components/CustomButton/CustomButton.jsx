@@ -14,6 +14,11 @@ function CustomButton({
   marginBottom,
   borderRadius,
   onClick,
+  positionRelative,
+  top,
+  bottom,
+  right,
+  left,
 }) {
   return (
     <Button
@@ -25,6 +30,11 @@ function CustomButton({
         border: borderSolid,
         marginBottom: marginBottom,
         borderRadius: borderRadius,
+        position: positionRelative,
+        top: top,
+        bottom: bottom,
+        right: right,
+        left: left,
 
         '&:hover': {
           color: hoverTextColor,

@@ -1,0 +1,11 @@
+.modalBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 15px;
+  background-color: lightblue;
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}

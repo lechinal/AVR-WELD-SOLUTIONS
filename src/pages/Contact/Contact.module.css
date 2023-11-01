@@ -1,0 +1,22 @@
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.inputField {
+  width: 170px;
+}
+
+.btnBox {
+  padding-bottom: 15px;
+}
+.textarea {
+  height: 70px;
+  width: 200px;
+}

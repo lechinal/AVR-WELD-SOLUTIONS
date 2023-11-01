@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import CustomButton from '../../components/CustomButton/CustomButton';
+import styles from './Contact.module.css';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -16,11 +18,17 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className={styles.contactBox}>
       <h3>Contact Form</h3>
-      <form action="https://formspree.io/f/moqobqzb" method="POST">
+      <form
+        action="https://formspree.io/f/moqobqzb"
+        method="POST"
+        className={styles.form}
+      >
         <label>Name:</label>
         <input
+          className={styles.inputField}
+          placeholder="Nume si prenume..."
           type="text"
           name="name"
           value={formData.name}
@@ -28,6 +36,8 @@ function Contact() {
         />
         <label>Email:</label>
         <input
+          className={styles.inputField}
+          placeholder="Email..."
           type="email"
           name="email"
           value={formData.email}
@@ -35,12 +45,24 @@ function Contact() {
         />
         <label>Message:</label>
         <textarea
+          className={styles.textarea}
+          placeholder="Textul tau aici..."
           name="message"
           value={formData.message}
           onChange={handleChange}
         />
-        <div>
-          <button type="submit">Send</button>
+        <div className={styles.btnBox}>
+          <CustomButton
+            text="Send"
+            textColor="black"
+            bgColor="white"
+            borderColor="black"
+            fontWeight={700}
+            hoverTextColor="white"
+            hoverBgColor="black"
+            borderSolid="1px solid black"
+            borderRadius="15px"
+          />
         </div>
       </form>
     </div>

@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './AboutUs.module.css';
 import avr7 from '../../images/avr_7.jpeg';
 import CustomButton from '../../components/CustomButton/CustomButton';
+import ContactModal from '../../components/ContactModal/ContactModal';
 
 function AboutUs() {
+  const navigate = useNavigate('');
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div id="about-us" className={styles.aboutUsBox}>
       <div className={styles.aboutUsDetails}>
@@ -38,6 +52,7 @@ function AboutUs() {
             hoverBgColor="black"
             borderSolid="1px solid black"
             borderRadius="15px"
+            onClick={() => navigate('/Gallery')}
           />
           <CustomButton
             text="Contact Us"
@@ -49,8 +64,11 @@ function AboutUs() {
             hoverBgColor="black"
             borderSolid="1px solid black"
             borderRadius="15px"
+            onClick={handleOpenModal}
+            // onClick={() => navigate('/Contact')}
           />
         </div>
+        {isModalOpen && <ContactModal onClose={handleCloseModal} />}
       </div>
 
       <div className={styles.aboutUsImgBox}>
