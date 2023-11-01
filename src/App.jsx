@@ -8,6 +8,8 @@ import AboutUs from 'pages/AboutUs/AboutUs';
 import WelcomePage from 'pages/WelcomePage/WelcomePage';
 import Gallery from 'pages/Gallery/Gallery';
 import Services from 'pages/Services/Services';
+import Contact from 'pages/Contact/Contact';
+import Details from 'pages/Details/Details';
 
 export const App = () => {
   return (
@@ -29,6 +31,8 @@ export const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/details" element={<Details />} />
       </Routes>
 
       <Footer />

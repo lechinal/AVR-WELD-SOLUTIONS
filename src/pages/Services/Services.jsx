@@ -1,12 +1,13 @@
 import React from 'react';
+
 import CustomButton from 'components/CustomButton/CustomButton';
 import styles from './Services.module.css';
-import weld1 from '../../images/servicesImg/weld-1.jpeg';
-import weld2 from '../../images/servicesImg/weld-2.jpg';
-import weld3 from '../../images/servicesImg/weld-3.jpeg';
-import weld4 from '../../images/servicesImg/weld-4.jpg';
+import servicesData from '../../data/servicesData';
+import { useNavigate } from 'react-router-dom';
 
 function Services() {
+  const navigate = useNavigate('');
+
   return (
     <div id="services" className={styles.services}>
       <div className={styles.titleBox}>
@@ -18,101 +19,33 @@ function Services() {
       </div>
 
       <div className={styles.cards}>
-        <div className={styles.card}>
-          <h2>Card 1 Title</h2>
-          <img
-            className={styles.cardImg}
-            src={weld1}
-            alt="weld1"
-            width={255}
-            height={255}
-          />
-          <p>Lorem ipsum for Card 1.</p>
-          <CustomButton
-            text="More..."
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            borderSolid="1px solid black"
-            hoverTextColor="white"
-            hoverBgColor="black"
-            marginBottom="25px"
-            borderRadius="15px"
-          />
-        </div>
+        {servicesData.map((service, index) => (
+          <div key={index} className={styles.card}>
+            <h2>{service.title}</h2>
+            <img
+              className={styles.cardImg}
+              src={service.image}
+              alt={`weld${index + 1}`}
+              width={255}
+              height={255}
+            />
+            <p>{service.description}</p>
 
-        <div className={styles.card}>
-          <h2>Card 2 Title</h2>
-          <img
-            className={styles.cardImg}
-            src={weld2}
-            alt="weld1"
-            width={255}
-            height={255}
-          />
-          <p>Lorem ipsum for Card 1.</p>
-          <CustomButton
-            text="More..."
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            borderSolid="1px solid black"
-            hoverTextColor="white"
-            hoverBgColor="black"
-            marginBottom="25px"
-            borderRadius="15px"
-          />
-        </div>
-
-        <div className={styles.card}>
-          <h2>Card 3 Title</h2>
-          <img
-            className={styles.cardImg}
-            src={weld3}
-            alt="weld1"
-            width={255}
-            height={255}
-          />
-          <p>Lorem ipsum for Card 1.</p>
-          <CustomButton
-            text="More..."
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            borderSolid="1px solid black"
-            hoverTextColor="white"
-            hoverBgColor="black"
-            marginBottom="25px"
-            borderRadius="15px"
-          />
-        </div>
-
-        <div className={styles.card}>
-          <h2>Card 4 Title</h2>
-          <img
-            className={styles.cardImg}
-            src={weld4}
-            alt="weld1"
-            width={255}
-            height={255}
-          />
-          <p>Lorem ipsum for Card 1.</p>
-          <CustomButton
-            text="More..."
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            borderSolid="1px solid black"
-            hoverTextColor="white"
-            hoverBgColor="black"
-            marginBottom="25px"
-            borderRadius="15px"
-          />
-        </div>
+            <CustomButton
+              text="More Details"
+              textColor="black"
+              bgColor="white"
+              borderColor="black"
+              fontWeight={700}
+              borderSolid="1px solid black"
+              hoverTextColor="white"
+              hoverBgColor="black"
+              marginBottom="25px"
+              borderRadius="15px"
+              onClick={() => navigate('/Details')}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

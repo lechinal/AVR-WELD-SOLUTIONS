@@ -90,7 +90,7 @@ function Navigation() {
           </Button>
         </NavLink>
 
-        <NavLink>
+        <NavLink to="/Contact">
           <Button
             className={styles.navButton}
             sx={{

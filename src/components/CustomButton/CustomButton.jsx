@@ -13,6 +13,7 @@ function CustomButton({
   hoverBorderColor,
   marginBottom,
   borderRadius,
+  onClick,
 }) {
   return (
     <Button
@@ -24,13 +25,14 @@ function CustomButton({
         border: borderSolid,
         marginBottom: marginBottom,
         borderRadius: borderRadius,
+
         '&:hover': {
           color: hoverTextColor,
           backgroundColor: hoverBgColor,
           borderColor: hoverBorderColor,
-          borderRadius: borderRadius,
         },
       }}
+      onClick={onClick}
     >
       {text}
     </Button>
