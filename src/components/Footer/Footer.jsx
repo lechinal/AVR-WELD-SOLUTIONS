@@ -6,7 +6,6 @@ import { BsInstagram } from 'react-icons/bs';
 
 function Footer() {
   const addressData = [
-    'AVR WELD SOLUTIONS',
     'Adresa: Strada Exemplu, Nr. 123',
     'Oraș: Blaj',
     'Judet: Alba',
@@ -28,6 +27,10 @@ function Footer() {
         </div>
 
         <div className={styles.div2}>
+          {/* <div className={styles.titleMenu}>
+            <h3>Menu</h3>
+          </div> */}
+
           <NavLink to="/" className={styles.link}>
             Home
           </NavLink>
@@ -45,13 +48,9 @@ function Footer() {
           </NavLink>
         </div>
 
-        {/* <div className={styles.div2}>
-          <p>+123 456 789 | avrweldsolutions@gmail.com</p>
-        </div> */}
-
         <div className={styles.div3}>
-          <BsFacebook style={{ width: '24px', height: '24px' }} />
-          <BsInstagram style={{ width: '24px', height: '24px' }} />
+          <BsFacebook style={{ width: '50px', height: '50px' }} />
+          <BsInstagram style={{ width: '50px', height: '50px' }} />
         </div>
       </div>
       <div className={styles.div4}>
