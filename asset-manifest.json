@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.1cb3222f.css",
-    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.3f387f81.js",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.7ed379d5.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.4b5a45eb.js",
     "static/media/avr_7.jpeg": "/AVR-WELD-SOLUTIONS/static/media/avr_7.8b0e9674a438673a74e7.jpeg",
     "static/media/logoImgMic.png": "/AVR-WELD-SOLUTIONS/static/media/logoImgMic.e31c7ced872b55e0f206.png",
     "static/media/weld-4.jpg": "/AVR-WELD-SOLUTIONS/static/media/weld-4.f0c800783d54722c0399.jpg",
     "static/media/weld-2.jpg": "/AVR-WELD-SOLUTIONS/static/media/weld-2.8cf259e9d69d86d2d3ed.jpg",
     "static/media/weld-3.jpeg": "/AVR-WELD-SOLUTIONS/static/media/weld-3.f4f8004bf9276e977599.jpeg",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.1cb3222f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.1cb3222f.css.map",
-    "main.3f387f81.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.3f387f81.js.map"
+    "main.7ed379d5.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.7ed379d5.css.map",
+    "main.4b5a45eb.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.4b5a45eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cb3222f.css",
-    "static/js/main.3f387f81.js"
+    "static/css/main.7ed379d5.css",
+    "static/js/main.4b5a45eb.js"
   ]
 }
