@@ -4,6 +4,9 @@ import styles from './Footer.module.css';
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+
 function Footer() {
   const addressData = [
     'Adresa: Strada Exemplu, Nr. 123',
@@ -51,6 +54,9 @@ function Footer() {
         <div className={styles.div3}>
           <BsFacebook style={{ width: '50px', height: '50px' }} />
           <BsInstagram style={{ width: '50px', height: '50px' }} />
+
+          <FacebookIcon style={{ width: '50px', height: '50px' }} />
+          <InstagramIcon style={{ width: '50px', height: '50px' }} />
         </div>
       </div>
       <div className={styles.div4}>
