@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkavr_weld_solutions=self.webpackChunkavr_weld_solutions||[]).push([[123],{3123:function(e,i,s){s.r(i);s(2791);var u=s(184);i.default=function(){return(0,u.jsxs)("div",{children:[(0,u.jsx)("h1",{children:"Welcome to AVR WELD SOLUTIONS"}),(0,u.jsx)("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem."})]})}}}]);
+//# sourceMappingURL=123.dcdf7f3b.chunk.js.map
