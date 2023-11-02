@@ -5,13 +5,13 @@ import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 import { Loader } from 'components/Loader/Loader';
 
-import AboutUs from 'pages/AboutUs/AboutUs';
-import WelcomePage from 'pages/WelcomePage/WelcomePage';
-import Gallery from 'pages/Gallery/Gallery';
-import Services from 'pages/Services/Services';
-import Contact from 'pages/Contact/Contact';
-import Details from 'pages/Details/Details';
-import NotFound from 'pages/NotFound/NotFound';
+const WelcomePage = lazy(() => import('pages/WelcomePage/WelcomePage'));
+const AboutUs = lazy(() => import('pages/AboutUs/AboutUs'));
+const Gallery = lazy(() => import('pages/Gallery/Gallery'));
+const Services = lazy(() => import('pages/Services/Services'));
+const Contact = lazy(() => import('pages/Contact/Contact'));
+const Details = lazy(() => import('pages/Details/Details'));
+const NotFound = lazy(() => import('pages/NotFound/NotFound'));
 
 export const App = () => {
   return (
