@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.4d9688a9.css",
-    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.226591a7.js",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.c4f5217b.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.0e360dac.js",
     "static/js/123.dcdf7f3b.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/123.dcdf7f3b.chunk.js",
     "static/css/776.4e4960c7.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/776.4e4960c7.chunk.css",
     "static/js/776.4f136a4d.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/776.4f136a4d.chunk.js",
     "static/css/264.51a3676d.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/264.51a3676d.chunk.css",
     "static/js/264.2a5ec67c.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/264.2a5ec67c.chunk.js",
-    "static/css/476.1da129c2.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/476.1da129c2.chunk.css",
-    "static/js/476.6c49d95f.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/476.6c49d95f.chunk.js",
+    "static/css/67.20dfba9d.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/67.20dfba9d.chunk.css",
+    "static/js/67.6064937a.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/67.6064937a.chunk.js",
     "static/css/749.c363b077.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/749.c363b077.chunk.css",
     "static/js/749.62ebedac.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/749.62ebedac.chunk.js",
-    "static/js/814.fccfd234.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/814.fccfd234.chunk.js",
+    "static/js/284.ddd4c1d2.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/284.ddd4c1d2.chunk.js",
     "static/css/120.d7e2b75e.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/120.d7e2b75e.chunk.css",
     "static/js/120.fac83693.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/120.fac83693.chunk.js",
     "static/media/avr_7.jpeg": "/AVR-WELD-SOLUTIONS/static/media/avr_7.8b0e9674a438673a74e7.jpeg",
@@ -21,23 +21,23 @@
     "static/media/notfoundPage.png": "/AVR-WELD-SOLUTIONS/static/media/notfoundPage.c97b5da55a08df19f5eb.png",
     "static/media/weld-3.jpeg": "/AVR-WELD-SOLUTIONS/static/media/weld-3.f4f8004bf9276e977599.jpeg",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.4d9688a9.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.4d9688a9.css.map",
-    "main.226591a7.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.226591a7.js.map",
+    "main.c4f5217b.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.c4f5217b.css.map",
+    "main.0e360dac.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.0e360dac.js.map",
     "123.dcdf7f3b.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/123.dcdf7f3b.chunk.js.map",
     "776.4e4960c7.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/776.4e4960c7.chunk.css.map",
     "776.4f136a4d.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/776.4f136a4d.chunk.js.map",
     "264.51a3676d.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/264.51a3676d.chunk.css.map",
     "264.2a5ec67c.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/264.2a5ec67c.chunk.js.map",
-    "476.1da129c2.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/476.1da129c2.chunk.css.map",
-    "476.6c49d95f.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/476.6c49d95f.chunk.js.map",
+    "67.20dfba9d.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/67.20dfba9d.chunk.css.map",
+    "67.6064937a.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/67.6064937a.chunk.js.map",
     "749.c363b077.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/749.c363b077.chunk.css.map",
     "749.62ebedac.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/749.62ebedac.chunk.js.map",
-    "814.fccfd234.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/814.fccfd234.chunk.js.map",
+    "284.ddd4c1d2.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/284.ddd4c1d2.chunk.js.map",
     "120.d7e2b75e.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/120.d7e2b75e.chunk.css.map",
     "120.fac83693.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/120.fac83693.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d9688a9.css",
-    "static/js/main.226591a7.js"
+    "static/css/main.c4f5217b.css",
+    "static/js/main.0e360dac.js"
   ]
 }
