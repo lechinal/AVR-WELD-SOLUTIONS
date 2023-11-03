@@ -42,7 +42,7 @@ function Services() {
               hoverBgColor="black"
               marginBottom="25px"
               borderRadius="15px"
-              onClick={() => navigate('/Details')}
+              onClick={() => navigate(`/Details/${service.id}`)}
             />
           </div>
         ))}
