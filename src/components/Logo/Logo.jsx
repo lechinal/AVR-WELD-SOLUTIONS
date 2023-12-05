@@ -12,6 +12,9 @@ function Logo() {
         width="140"
         height="100"
       />
+      <h3 className={styles.logoTitle}>
+        Montaje și Reparații Tuberie Industrială, Structuri Metalice
+      </h3>
     </div>
   );
 }

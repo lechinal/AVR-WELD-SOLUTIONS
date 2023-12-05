@@ -4,8 +4,8 @@ import styles from './Footer.module.css';
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
   const addressData = [
@@ -30,10 +30,6 @@ function Footer() {
         </div>
 
         <div className={styles.div2}>
-          {/* <div className={styles.titleMenu}>
-            <h3>Menu</h3>
-          </div> */}
-
           <NavLink to="/" className={styles.link}>
             Home
           </NavLink>
@@ -52,11 +48,11 @@ function Footer() {
         </div>
 
         <div className={styles.div3}>
-          <BsFacebook style={{ width: '50px', height: '50px' }} />
-          <BsInstagram style={{ width: '50px', height: '50px' }} />
+          <BsFacebook style={{ width: '40px', height: '40px' }} />
+          <BsInstagram style={{ width: '40px', height: '40px' }} />
 
-          <FacebookIcon style={{ width: '50px', height: '50px' }} />
-          <InstagramIcon style={{ width: '50px', height: '50px' }} />
+          {/* <FacebookIcon style={{ width: '50px', height: '50px' }} />
+          <InstagramIcon style={{ width: '50px', height: '50px' }} /> */}
         </div>
       </div>
       <div className={styles.div4}>

@@ -8,19 +8,8 @@
   box-shadow: inset 0 -3em 5em hsla(0, 0%, 50%, 0.5), 0 0 0 3px #fff,
     0.5em 0.5em 1.5em hsla(0, 0%, 50%, 0.8);
 
-  background-color: rgb(43, 108, 163);
-}
+  background-color: rgb(35, 27, 157);
 
-.headerTitleBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.headerTitle {
-  font-size: 35px;
-}
-
-.headerSubTitle {
-  font-size: 25px;
+  position: sticky;
+  top: 0;
 }

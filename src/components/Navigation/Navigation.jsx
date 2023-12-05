@@ -13,38 +13,45 @@ function Navigation() {
         variant="text"
         color="primary"
         aria-label="navigation buttons"
-        sx={{ height: '50px' }}
+        sx={{ height: '40px' }}
       >
-        <NavLink to="/">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? `${styles.active} ${styles.noHover}` : ''
+          }
+        >
           <Button
             className={styles.navButton}
             sx={{
               color: 'white',
-              fontWeight: 'bold',
 
               '&:hover': {
                 color: 'black',
                 backgroundColor: 'white',
-
-                borderRadius: '15px',
+                borderRadius: '40px',
+                border: '1px solid',
               },
             }}
           >
             Home
           </Button>
         </NavLink>
-        <NavLink to="/About">
+        <NavLink
+          to="/About"
+          className={({ isActive }) =>
+            isActive ? `${styles.active} ${styles.noHover}` : styles.navButton
+          }
+        >
           <Button
             className={styles.navButton}
             sx={{
               color: 'white',
-              fontWeight: 'bold',
 
               '&:hover': {
                 color: 'black',
                 backgroundColor: 'white',
-
-                borderRadius: '15px',
+                borderRadius: '40px',
               },
             }}
           >
@@ -52,18 +59,21 @@ function Navigation() {
           </Button>
         </NavLink>
 
-        <NavLink to="/Services">
+        <NavLink
+          to="/Services"
+          className={({ isActive }) =>
+            isActive ? `${styles.active} ${styles.noHover}` : styles.navButton
+          }
+        >
           <Button
             className={styles.navButton}
             sx={{
               color: 'white',
-              fontWeight: 'bold',
 
               '&:hover': {
                 color: 'black',
                 backgroundColor: 'white',
-
-                borderRadius: '15px',
+                borderRadius: '40px',
               },
             }}
           >
@@ -71,18 +81,21 @@ function Navigation() {
           </Button>
         </NavLink>
 
-        <NavLink to="/Gallery">
+        <NavLink
+          to="/Gallery"
+          className={({ isActive }) =>
+            isActive ? `${styles.active} ${styles.noHover}` : styles.navButton
+          }
+        >
           <Button
             className={styles.navButton}
             sx={{
               color: 'white',
-              fontWeight: 'bold',
 
               '&:hover': {
                 color: 'black',
                 backgroundColor: 'white',
-
-                borderRadius: '15px',
+                borderRadius: '40px',
               },
             }}
           >
@@ -90,19 +103,22 @@ function Navigation() {
           </Button>
         </NavLink>
 
-        <NavLink to="/Contact">
+        <NavLink
+          to="/Contact"
+          className={({ isActive }) =>
+            isActive ? `${styles.active} ${styles.noHover}` : styles.navButton
+          }
+        >
           <Button
             className={styles.navButton}
             sx={{
               color: 'white',
-              fontWeight: 'bold',
-              // paddingBottom: '15px',
 
               '&:hover': {
                 color: 'black',
                 backgroundColor: 'white',
 
-                borderRadius: '15px',
+                borderRadius: '40px',
               },
             }}
           >

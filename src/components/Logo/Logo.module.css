@@ -1,8 +1,18 @@
 .logo {
   height: 100%;
   padding: 10px 10px 10px 15px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  font-size: 10px;
 }
 
 .logoImg {
   border-radius: 50%;
+}
+
+.logoTitle {
+  color: white;
 }

@@ -34,7 +34,7 @@
   text-decoration-color: #edc84b;
 }
 
-.aboutUsImgBox {
+/* .aboutUsImgBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
   border-radius: 50%;
   width: 100%;
   padding-right: 35px;
-}
+} */
 .aboutUsBox p {
   font-size: 24px;
   font-family: Roboto;

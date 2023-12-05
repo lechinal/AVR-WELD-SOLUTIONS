@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './AboutUs.module.css';
-import avr7 from '../../images/avr_7.jpeg';
+
 import CustomButton from '../../components/CustomButton/CustomButton';
 import ContactModal from '../../components/ContactModal/ContactModal';
 
@@ -71,7 +71,7 @@ function AboutUs() {
         {isModalOpen && <ContactModal onClose={handleCloseModal} />}
       </div>
 
-      <div className={styles.aboutUsImgBox}>
+      {/* <div className={styles.aboutUsImgBox}>
         <img
           className={styles.aboutUsImg}
           src={avr7}
@@ -79,7 +79,7 @@ function AboutUs() {
           width={800}
           height={600}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
