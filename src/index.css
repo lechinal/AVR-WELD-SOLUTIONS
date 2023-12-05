@@ -1,3 +1,9 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import-normalize;
 bring in normalize.css styles body {
   margin: 0;
