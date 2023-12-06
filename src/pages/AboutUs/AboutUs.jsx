@@ -54,6 +54,9 @@ function AboutUs() {
             borderRadius="15px"
             onClick={() => navigate('/Gallery')}
           />
+
+          <button onClick={() => navigate('/Gallery')}>Gallery</button>
+
           <CustomButton
             text="Contact Us"
             textColor="black"

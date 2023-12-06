@@ -20,8 +20,8 @@ function Footer() {
   return (
     <footer>
       <div className={styles.footerBox}>
-        <div className={styles.div1}>
-          <h3>Contact</h3>
+        <div className={styles.footerContact}>
+          <h3>Contact:</h3>
           <address>
             {addressData.map((text, index) => (
               <p key={index}>{text}</p>
@@ -29,7 +29,7 @@ function Footer() {
           </address>
         </div>
 
-        <div className={styles.div2}>
+        <div className={styles.footerNavBar}>
           <NavLink to="/" className={styles.link}>
             Home
           </NavLink>
@@ -47,7 +47,7 @@ function Footer() {
           </NavLink>
         </div>
 
-        <div className={styles.div3}>
+        <div className={styles.footerSocial}>
           <BsFacebook style={{ width: '40px', height: '40px' }} />
           <BsInstagram style={{ width: '40px', height: '40px' }} />
 
@@ -55,7 +55,7 @@ function Footer() {
           <InstagramIcon style={{ width: '50px', height: '50px' }} /> */}
         </div>
       </div>
-      <div className={styles.div4}>
+      <div className={styles.designBy}>
         <p>
           <strong>
             © 2023 by AVG WELD SOLUTIONS. Powered and secured by ...

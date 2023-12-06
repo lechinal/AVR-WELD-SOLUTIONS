@@ -13,21 +13,27 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <nav className={styles.nav}>
-        <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
-          <img
-            className={styles.logoImg}
-            src={logoImgMic}
-            alt="Logo"
-            width="140"
-            height="100"
-          />
-          <h3 className={styles.logoTitle}>
-            Montaje și Reparații Tuberie Industrială, Structuri Metalice
-          </h3>
-        </Link>
+        <div className={styles.logoBox}>
+          <Link to="/" className={styles.logoLink}>
+            <img
+              className={styles.logoImg}
+              src={logoImgMic}
+              alt="Logo"
+              width="140"
+              height="100"
+            />
+            <h3 className={styles.logoTitle}>
+              Montaje și Reparații Tuberie Industrială, Structuri Metalice
+            </h3>
+          </Link>
+        </div>
 
         <div className={`${styles.listBox} ${isOpen ? '' : styles.hidden}`}>
           <ul className={styles.open}>
@@ -37,6 +43,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? `${styles.active} ${styles.noHover}` : ''
                 }
+                onClick={closeMenu}
               >
                 Home
               </NavLink>
@@ -50,6 +57,7 @@ function Header() {
                     ? `${styles.active} ${styles.noHover}`
                     : styles.navButton
                 }
+                onClick={closeMenu}
               >
                 About Us
               </NavLink>
@@ -63,6 +71,7 @@ function Header() {
                     ? `${styles.active} ${styles.noHover}`
                     : styles.navButton
                 }
+                onClick={closeMenu}
               >
                 Services
               </NavLink>
@@ -76,6 +85,7 @@ function Header() {
                     ? `${styles.active} ${styles.noHover}`
                     : styles.navButton
                 }
+                onClick={closeMenu}
               >
                 Gallery
               </NavLink>
@@ -89,16 +99,20 @@ function Header() {
                     ? `${styles.active} ${styles.noHover}`
                     : styles.navButton
                 }
+                onClick={closeMenu}
               >
                 Contact
               </NavLink>
             </li>
+            {isOpen && (
+              <div className={styles.closeMobile} onClick={handleClick}>
+                <CloseHamburgerMenuIcon />
+              </div>
+            )}
           </ul>
         </div>
         <div className={styles.mobile} onClick={handleClick}>
-          {isOpen ? <CloseHamburgerMenuIcon /> : <HamburgerMenuIcon />}
-          {/* <HamburgerMenuIcon />
-          <CloseHamburgerMenuIcon /> */}
+          {!isOpen ? <HamburgerMenuIcon /> : null}
         </div>
       </nav>
     </>

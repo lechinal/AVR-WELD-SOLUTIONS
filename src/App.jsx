@@ -17,13 +17,10 @@ export const App = () => {
   return (
     <div
       style={{
-        // height: '100vh',
-        // display: 'flex',
-        // flexDirection: 'column',
-        // justifyContent: 'space-between',
-        // alignItems: 'center',
-
-        color: '#010101',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
       }}
     >
       <Header />
