@@ -98,3 +98,18 @@
     text-align: center;
   }
 }
+@media (max-width: 385px) {
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 30px;
+  }
+  .text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .text {
+    width: 250px;
+  }
+}

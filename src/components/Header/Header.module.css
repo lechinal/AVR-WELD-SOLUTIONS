@@ -1,6 +1,6 @@
 /* Header container */
 .nav {
-  background-color: white;
+  background-color: #c2bebe;
 
   border-bottom: 2px solid #c2bebe;
 
@@ -54,14 +54,14 @@
   font-weight: 600;
   color: black;
 
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .element a:hover {
   color: red;
   background-color: #f0f0f0;
-  padding: 8px;
-  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
 }
 
@@ -147,12 +147,35 @@
   }
 
   .logoTitle {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .logoImg {
     width: 100px;
-    height: 75px;
+    height: 60px;
     /* Aspect ratio 4:3 */
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .logoLink {
+    gap: 10px;
+  }
+  .logoTitle {
+    font-size: 8px;
+  }
+
+  .logoImg {
+    width: 80px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .logoTitle {
+    display: none;
+  }
+  .logoImg {
+    width: 60px;
+    height: 40px;
   }
 }

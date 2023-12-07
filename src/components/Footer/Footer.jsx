@@ -1,8 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 // import FacebookIcon from '@mui/icons-material/Facebook';
 // import InstagramIcon from '@mui/icons-material/Instagram';
@@ -50,15 +52,24 @@ function Footer() {
         <div className={styles.footerSocial}>
           <BsFacebook style={{ width: '40px', height: '40px' }} />
           <BsInstagram style={{ width: '40px', height: '40px' }} />
-
-          {/* <FacebookIcon style={{ width: '50px', height: '50px' }} />
-          <InstagramIcon style={{ width: '50px', height: '50px' }} /> */}
         </div>
       </div>
-      <div className={styles.designBy}>
+      <div className={styles.designedBy}>
         <p>
           <strong>
-            © 2023 by AVG WELD SOLUTIONS. Powered and secured by ...
+            <span className={styles.designedByText}>
+              © 2023 by AVG WELD SOLUTIONS locul unde Metalul Prinde Viață.
+              Toate drepturile rezervate. Dezvoltat și întreținut cu pasiune de:{' '}
+            </span>
+            <Link to="https://github.com/lechinal" target="_blank">
+              <FaGithub className={styles.designedByIcon} />
+            </Link>{' '}
+            <Link
+              to="https://www.linkedin.com/in/alin-lechintan-2582b181/"
+              target="_blank"
+            >
+              <FaLinkedin className={styles.designedByIcon} />
+            </Link>
           </strong>
         </p>
       </div>

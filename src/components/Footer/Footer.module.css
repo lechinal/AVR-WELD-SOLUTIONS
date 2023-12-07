@@ -1,7 +1,8 @@
 footer {
-  background-color: lightpink;
+  background-color: #c2bebe;
   height: 100%;
-  border: 5px solid blue;
+
+  margin-bottom: 10px;
 }
 .footerBox {
   display: grid;
@@ -23,6 +24,10 @@ footer {
   padding: 20px 20px;
 }
 
+.footerContact address {
+  font-style: normal;
+}
+
 .footerNavBar {
   display: flex;
   flex-direction: column;
@@ -31,12 +36,46 @@ footer {
 .link {
   text-decoration: none;
   font-size: 20px;
-  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+  color: black;
 }
 
-.designBy {
+.link:hover {
+  color: red;
+
+  /* background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.designedBy {
   display: flex;
   justify-content: flex-start;
 
   padding: 15px 0 0 15px;
+}
+
+.designedBy p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.designedByIcon {
+  color: black;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.designedByIcon:hover,
+.designedByText:hover {
+  color: blue;
+  transform: scale(1.5);
 }

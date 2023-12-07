@@ -4,7 +4,7 @@ import HamburgerMenuIcon from '../HamburgerMenuIcon/HamburgerMenuIcon';
 import CloseHamburgerMenuIcon from '../CloseHamburgerMenuIcon/CloseHamburgerMenuIcon';
 
 import styles from './Header.module.css';
-import logoImgMic from '../../images/logoImgMic.png';
+import logoAvrWeld from '../../images/logoAvrWeld.svg';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,13 +22,7 @@ function Header() {
       <nav className={styles.nav}>
         <div className={styles.logoBox}>
           <Link to="/" className={styles.logoLink}>
-            <img
-              className={styles.logoImg}
-              src={logoImgMic}
-              alt="Logo"
-              width="140"
-              height="100"
-            />
+            <img className={styles.logoImg} src={logoAvrWeld} alt="Logo" />
             <h3 className={styles.logoTitle}>
               Montaje și Reparații Tuberie Industrială, Structuri Metalice
             </h3>
