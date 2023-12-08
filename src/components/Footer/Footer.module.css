@@ -60,6 +60,10 @@ footer {
   justify-content: flex-start;
 
   padding: 15px 0 0 15px;
+
+  border-top-color: rgb(147, 145, 145);
+  border-top-style: dashed;
+  border-top-width: 1px;
 }
 
 .designedBy p {
