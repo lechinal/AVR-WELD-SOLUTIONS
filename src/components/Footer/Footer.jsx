@@ -6,16 +6,12 @@ import { BsInstagram } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-
 function Footer() {
   const addressData = [
     'Adresa: Strada Exemplu, Nr. 123',
-    'Oraș: Blaj',
+    'Oraș: Blaj Judet: Alba',
     'Judet: Alba',
     'Cod Poștal: 12345',
-    'Țară: Romania',
     'Telefon: +123 456 789',
     'Email: avrweldsolutions@gmail.com',
   ];
@@ -50,8 +46,8 @@ function Footer() {
         </div>
 
         <div className={styles.footerSocial}>
-          <BsFacebook style={{ width: '40px', height: '40px' }} />
-          <BsInstagram style={{ width: '40px', height: '40px' }} />
+          <BsFacebook className={styles.footerSocialIcon} />
+          <BsInstagram className={styles.footerSocialIcon} />
         </div>
       </div>
       <div className={styles.designedBy}>

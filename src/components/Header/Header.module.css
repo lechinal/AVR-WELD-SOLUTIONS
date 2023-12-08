@@ -153,7 +153,6 @@
   .logoImg {
     width: 100px;
     height: 60px;
-    /* Aspect ratio 4:3 */
   }
 }
 @media screen and (min-width: 320px) and (max-width: 450px) {
@@ -168,6 +167,11 @@
     width: 80px;
     height: 50px;
   }
+
+  .listBox ul {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 319px) {
@@ -177,5 +181,8 @@
   .logoImg {
     width: 60px;
     height: 40px;
+  }
+  .listBox ul {
+    height: 100%;
   }
 }
