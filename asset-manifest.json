@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.10a0aa62.css",
-    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.18017bf3.js",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.43e286cd.css",
+    "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.dd16f4ac.js",
     "static/css/735.fa313f0a.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/735.fa313f0a.chunk.css",
     "static/js/735.997e4c25.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/735.997e4c25.chunk.js",
     "static/css/525.5502cc6b.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/525.5502cc6b.chunk.css",
@@ -23,8 +23,8 @@
     "static/media/notfoundPage.png": "/AVR-WELD-SOLUTIONS/static/media/notfoundPage.c97b5da55a08df19f5eb.png",
     "static/media/weld-3.jpeg": "/AVR-WELD-SOLUTIONS/static/media/weld-3.f4f8004bf9276e977599.jpeg",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.10a0aa62.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.10a0aa62.css.map",
-    "main.18017bf3.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.18017bf3.js.map",
+    "main.43e286cd.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.43e286cd.css.map",
+    "main.dd16f4ac.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.dd16f4ac.js.map",
     "735.fa313f0a.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/735.fa313f0a.chunk.css.map",
     "735.997e4c25.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/735.997e4c25.chunk.js.map",
     "525.5502cc6b.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/525.5502cc6b.chunk.css.map",
@@ -41,7 +41,7 @@
     "884.ed317c5a.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/884.ed317c5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a0aa62.css",
-    "static/js/main.18017bf3.js"
+    "static/css/main.43e286cd.css",
+    "static/js/main.dd16f4ac.js"
   ]
 }
