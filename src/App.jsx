@@ -1,6 +1,8 @@
 import React, { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import styles from './App.module.css';
+
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 import { Loader } from 'components/Loader/Loader';
@@ -15,14 +17,7 @@ const NotFound = lazy(() => import('pages/NotFound/NotFound'));
 
 export const App = () => {
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-      }}
-    >
+    <div className={styles.wrapper}>
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>

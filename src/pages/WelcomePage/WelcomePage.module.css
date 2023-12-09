@@ -40,17 +40,18 @@
 .titleSecondPart h1 {
   color: #f7d57f;
   font-size: 88px;
+  font-family: 'Kalnia';
 }
 
 .text p {
   color: white;
-  /* width: 1000px; */
+
   font-size: 30px;
 }
 
 /* Responsive */
 
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
   .titleFirstPart h1,
   .titleSecondPart h1 {
     font-size: 60px;
@@ -63,12 +64,12 @@
 
 @media (max-width: 1300px) {
   .text p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 1050px) {
   .text p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 950px) {
@@ -109,6 +110,10 @@
 }
 
 @media (max-width: 320px) {
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 20px;
+  }
   .text {
     width: 250px;
   }

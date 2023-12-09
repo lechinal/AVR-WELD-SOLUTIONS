@@ -7,7 +7,11 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
-  const addressData = ['Strada Exemplu, Nr. 123', 'Blaj', 'Cod Poștal: 12345'];
+  const addressData = [
+    'Strada Exemplu, Nr. 123',
+    'Blaj, jud. Alba',
+    'Cod Poștal: 12345',
+  ];
   const contactData = ['T: +123 456 789', 'E: avrweldsolutions@gmail.com'];
   return (
     <footer>
@@ -32,21 +36,23 @@ function Footer() {
         </div>
         <div className={styles.footerNav}>
           <h3>Navigation</h3>
-          <NavLink to="/" className={styles.link}>
-            Home
-          </NavLink>
-          <NavLink to="/About" className={styles.link}>
-            About us
-          </NavLink>
-          <NavLink to="/Services" className={styles.link}>
-            Services
-          </NavLink>
-          <NavLink to="/Gallery" className={styles.link}>
-            Gallery
-          </NavLink>
-          <NavLink to="/Contact" className={styles.link}>
-            Contact
-          </NavLink>
+          <span>
+            <NavLink to="/" className={styles.link}>
+              Home
+            </NavLink>
+            <NavLink to="/About" className={styles.link}>
+              About us
+            </NavLink>
+            <NavLink to="/Services" className={styles.link}>
+              Services
+            </NavLink>
+            <NavLink to="/Gallery" className={styles.link}>
+              Gallery
+            </NavLink>
+            <NavLink to="/Contact" className={styles.link}>
+              Contact
+            </NavLink>
+          </span>
         </div>
         <div className={styles.footerSocial}>
           <h3>Follow us</h3>

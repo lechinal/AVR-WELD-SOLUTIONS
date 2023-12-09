@@ -1,103 +1,107 @@
 footer {
   background-color: #c2bebe;
   height: 100%;
+  width: 100%;
 }
+
 .footerBox {
   display: flex;
-  margin: 15px;
+  flex-direction: row;
 }
-
-.footerDetails,
-.footerNav {
+.footerBox > div {
   flex: 1;
 }
-.footerNav {
-  max-width: 100%;
-  flex: 1;
-}
-
-/* Adress & Contact Info */
 
 .footerDetails {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  text-align: center;
 }
 
+.footerAddress h3,
+.footerContact h3 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.footerDetails address {
+  font-style: normal;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.footerDetails address:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .footerAddress,
 .footerContact {
+  margin: 15px 0 15px 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 300px;
-}
-.footerDetails h3 {
-  font-size: 20px;
-  text-decoration: underline;
-}
-
-address p {
-  color: black;
-  font-size: 15px;
-  font-style: normal;
 }
 
 /* Navigation */
 
 .footerNav {
   display: flex;
-  gap: 10px;
   flex-direction: column;
-
-  width: 300px;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
 }
 .footerNav h3 {
-  font-size: 20px;
   text-decoration: underline;
+  font-size: 20px;
 }
-.link {
-  color: black;
-  font-size: 15px;
-  padding-left: 23px;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+.footerNav span {
+  display: flex;
+  flex-direction: column;
 
-  width: 100px;
+  gap: 5px;
+  text-align: center;
+  padding-top: 10px;
+
+  /* width: max-content; */
 }
-
-.link:hover {
+.footerNav span a:hover {
   color: red;
   text-decoration: underline;
 }
 
-/* Follow us */
+.link {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
 
+/* Follow us */
 .footerSocial {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: center;
+  text-align: center;
+  padding-top: 15px;
 }
 .footerSocial h3 {
-  font-size: 20px;
   text-decoration: underline;
+  font-size: 20px;
 }
 .footerSocial span {
   display: flex;
+  justify-content: center;
   gap: 10px;
+  padding-top: 10px;
 }
-
 .footerSocialIcon {
+  color: black;
   width: 25px;
   height: 25px;
   transition: all 0.3s ease-in-out;
 }
+
 .footerSocialIcon:hover {
   cursor: pointer;
-  transform: scale(1.2);
   color: blue;
+  transform: scale(1.2);
 }
-
 /* Designed By */
 .designedBy {
   margin: 0 0 10px 15px;
@@ -105,12 +109,14 @@ address p {
 
 .designedBy p {
   text-align: center;
+  padding-top: 5px;
 }
 .designedByText {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .designedByIcon {
+  color: black;
   width: 15px;
   height: 15px;
   transition: all 0.3s ease-in-out;
@@ -120,4 +126,97 @@ address p {
   cursor: pointer;
   transform: scale(1.2);
   color: blue;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .footerAddress h3,
+  .footerContact h3 {
+    font-size: 16px;
+  }
+  .footerDetails address {
+    font-size: 14px;
+  }
+  .footerNav h3 {
+    font-size: 16px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .footerSocial h3 {
+    font-size: 16px;
+  }
+  .footerSocialIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .designedByText {
+    font-size: 8px;
+  }
+  .designedByIcon {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .footerAddress h3,
+  .footerContact h3 {
+    font-size: 14px;
+  }
+  .footerDetails address {
+    font-size: 12px;
+  }
+  .footerNav h3 {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+  .footerSocial h3 {
+    font-size: 14px;
+  }
+  .footerSocialIcon {
+    width: 15px;
+    height: 15px;
+  }
+  .designedByText {
+    font-size: 6px;
+  }
+  .designedByIcon {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footerAddress h3,
+  .footerContact h3 {
+    font-size: 12px;
+  }
+  .footerDetails address {
+    font-size: 10px;
+  }
+  .footerNav h3 {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 10px;
+  }
+  .footerSocial h3 {
+    font-size: 12px;
+  }
+  .footerSocialIcon {
+    width: 13px;
+    height: 13px;
+  }
+  .designedByText {
+    font-size: 5px;
+  }
+  .designedByIcon {
+    width: 8px;
+    height: 8px;
+  }
 }
