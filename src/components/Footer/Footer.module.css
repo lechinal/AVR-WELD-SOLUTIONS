@@ -3,218 +3,114 @@ footer {
   height: 100%;
 }
 .footerBox {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  margin: 15px;
 }
 
-.footerNavBar,
-.footerSocial {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+.footerDetails,
+.footerNav {
+  flex: 1;
 }
+/* Adress & Contact Info */
+
+.footerDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerAddress,
 .footerContact {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px 20px;
-
-  font-size: 12px;
+  width: 300px;
+}
+.footerDetails h3 {
+  font-size: 20px;
+  text-decoration: underline;
 }
 
-.footerContact address {
+address p {
+  color: black;
+  font-size: 15px;
   font-style: normal;
-
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
 }
 
-.footerNavBar {
+/* Navigation */
+
+.footerNav {
   display: flex;
+  gap: 10px;
   flex-direction: column;
-  padding-top: 20px;
+}
+.footerNav h3 {
+  font-size: 20px;
+  text-decoration: underline;
 }
 .link {
-  text-decoration: none;
-  font-size: 15px;
-  transition: all 0.1s ease-in-out;
   color: black;
+  font-size: 15px;
+  padding-left: 23px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  width: 100px;
 }
 
 .link:hover {
   color: red;
-
-  /* background-color: #f0f0f0;
-  border-radius: 15px;
-  padding: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
-
   text-decoration: underline;
-  text-decoration-color: red;
 }
 
-.designedBy {
+/* Follow us */
+
+.footerSocial {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.footerSocial h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.footerSocial span {
+  display: flex;
+  gap: 10px;
+}
 
-  padding: 15px 0 0 15px;
+.footerSocialIcon {
+  width: 25px;
+  height: 25px;
+  transition: all 0.3s ease-in-out;
+}
+.footerSocialIcon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: blue;
+}
 
-  border-top-color: rgb(147, 145, 145);
-  border-top-style: dashed;
-  border-top-width: 1px;
+/* Designed By */
+.designedBy {
+  margin: 0 0 10px 15px;
 }
 
 .designedBy p {
-  margin-bottom: 10px;
+  text-align: center;
+}
+.designedByText {
   font-size: 12px;
-  font-style: italic;
 }
 
 .designedByIcon {
-  color: black;
-  margin-right: 3px;
   width: 15px;
   height: 15px;
-
   transition: all 0.3s ease-in-out;
 }
 
 .designedByIcon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
   color: blue;
-  transform: scale(1.5);
-}
-
-.designedByText {
-  transition: all 0.2s ease-in-out;
-}
-.designedByText:hover {
-  text-decoration: underline;
-  color: blue;
-}
-
-.footerSocialIcon {
-  width: 30px;
-  height: 30px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .footerContact h3 {
-    font-size: 12px;
-  }
-  address {
-    font-size: 10px;
-  }
-
-  .link {
-    font-size: 10px;
-  }
-
-  .footerSocialIcon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .designedByText {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 620px) {
-  .designedByText {
-    font-size: 8px;
-  }
-  .designedByIcon {
-    width: 10px;
-    height: 10px;
-  }
-}
-
-@media (max-width: 570px) {
-  .footerContact h3 {
-    font-size: 10px;
-  }
-  address {
-    font-size: 8px;
-  }
-}
-
-@media (max-width: 500px) {
-  .designedByText {
-    font-size: 7px;
-  }
-  .footerContact h3 {
-    font-size: 8px;
-  }
-  address {
-    font-size: 6px;
-  }
-  .link {
-    font-size: 8px;
-  }
-
-  .footerSocialIcon {
-    width: 15px;
-    height: 15px;
-  }
-}
-
-@media (max-width: 450px) {
-  .designedByText {
-    font-size: 5px;
-  }
-}
-
-@media (max-width: 390px) {
-  .footerContact h3 {
-    font-size: 6px;
-  }
-  address {
-    font-size: 5px;
-  }
-
-  .link {
-    font-size: 7px;
-  }
-}
-
-@media (max-width: 345px) {
-  .footerContact h3 {
-    font-size: 5px;
-  }
-  address {
-    font-size: 4px;
-  }
-
-  .link {
-    font-size: 6px;
-  }
-  .designedByText {
-    font-size: 4px;
-  }
-  .designedByIcon {
-    width: 8px;
-    height: 8px;
-  }
-}
-@media (max-width: 320px) {
-  .footerContact h3 {
-    font-size: 4px;
-  }
-  address {
-    font-size: 3px;
-  }
-
-  .link {
-    font-size: 5px;
-  }
-  .designedByText {
-    font-size: 3px;
-  }
-  .designedByIcon {
-    width: 6px;
-    height: 6px;
-  }
 }

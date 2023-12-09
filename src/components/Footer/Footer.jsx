@@ -7,32 +7,36 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
-  const addressData = [
-    'Adresa: Strada Exemplu, Nr. 123',
-    'Oraș: Blaj Judet: Alba',
-    'Judet: Alba',
-    'Cod Poștal: 12345',
-    'Telefon: +123 456 789',
-    'Email: avrweldsolutions@gmail.com',
-  ];
+  const addressData = ['Strada Exemplu, Nr. 123', 'Blaj', 'Cod Poștal: 12345'];
+  const contactData = ['T: +123 456 789', 'E: avrweldsolutions@gmail.com'];
   return (
     <footer>
       <div className={styles.footerBox}>
-        <div className={styles.footerContact}>
-          <h3>Contact:</h3>
-          <address>
-            {addressData.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
-          </address>
+        <div className={styles.footerDetails}>
+          <div className={styles.footerAddress}>
+            <h3>Address</h3>
+            <address>
+              {addressData.map((text, index) => (
+                <p key={index}>{text}</p>
+              ))}
+            </address>
+          </div>
+          <div className={styles.footerContact}>
+            <h3>Contact Info</h3>
+            <address>
+              {contactData.map((text, index) => (
+                <p key={index}>{text}</p>
+              ))}
+            </address>
+          </div>
         </div>
-
-        <div className={styles.footerNavBar}>
+        <div className={styles.footerNav}>
+          <h3>Navigation</h3>
           <NavLink to="/" className={styles.link}>
             Home
           </NavLink>
           <NavLink to="/About" className={styles.link}>
-            About Us
+            About us
           </NavLink>
           <NavLink to="/Services" className={styles.link}>
             Services
@@ -44,10 +48,16 @@ function Footer() {
             Contact
           </NavLink>
         </div>
-
         <div className={styles.footerSocial}>
-          <BsFacebook className={styles.footerSocialIcon} />
-          <BsInstagram className={styles.footerSocialIcon} />
+          <h3>Follow us</h3>
+          <span>
+            <Link>
+              <BsFacebook className={styles.footerSocialIcon} />
+            </Link>
+            <Link>
+              <BsInstagram className={styles.footerSocialIcon} />
+            </Link>
+          </span>
         </div>
       </div>
       <div className={styles.designedBy}>
@@ -55,7 +65,7 @@ function Footer() {
           <strong>
             <span className={styles.designedByText}>
               © 2023 by AVG WELD SOLUTIONS locul unde Metalul Prinde Viață.
-              Toate drepturile rezervate. Dezvoltat și întreținut cu pasiune de:{' '}
+              Toate drepturile rezervate. Dezvoltat și întreținut de:{' '}
             </span>
             <Link to="https://github.com/lechinal" target="_blank">
               <FaGithub className={styles.designedByIcon} />
