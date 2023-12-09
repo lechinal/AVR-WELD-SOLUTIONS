@@ -11,6 +11,10 @@ footer {
 .footerNav {
   flex: 1;
 }
+.footerNav {
+  max-width: 100%;
+  flex: 1;
+}
 /* Adress & Contact Info */
 
 .footerDetails {
@@ -43,6 +47,8 @@ address p {
   display: flex;
   gap: 10px;
   flex-direction: column;
+
+  width: 300px;
 }
 .footerNav h3 {
   font-size: 20px;
