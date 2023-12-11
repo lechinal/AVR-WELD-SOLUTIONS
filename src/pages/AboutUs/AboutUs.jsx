@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import styles from './AboutUs.module.css';
 
 import CustomButton from '../../components/CustomButton/CustomButton';
@@ -21,68 +21,116 @@ function AboutUs() {
   return (
     <div id="about-us" className={styles.aboutUsBox}>
       <div className={styles.aboutUsDetails}>
-        <h1 className={styles.aboutUsTitle}>Despre noi</h1>
-
-        <p>
-          AVR Weld Solutions, specializată în industria de confecții metalice,
-          fabricarea și montarea traseelor de tuburi metalice destinate
-          transportului lichidelor și gazelor industriale, precum și realizarea
-          de mici structuri metalice. Cu o experiență de peste 25 de ani în
-          domeniu și deținând autorizație ISCIR în sudură, suntem mândri să vă
-          prezentăm realizările noastre remarcabile în Europa și Africa.
-        </p>
-        <p>
-          Mândria noastră este abilitatea de a oferi soluții la cheie pentru
-          proiectele industriale, concentrându-ne pe fabricarea și instalarea
-          sistemelor de conducte metalice destinate transportului <br />
-          lichidelor și gazelor industriale. Flexibilitatea noastră ne permite
-          să ne adaptăm la cerințele specifice ale fiecărui proiect,
-          asigurându-ne că rezultatul final este întotdeauna de cea mai înaltă
-          calitate.
-        </p>
-
-        <div className={styles.aboutUsBtnBox}>
-          <CustomButton
-            text="Gallery"
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            hoverTextColor="white"
-            hoverBgColor="black"
-            borderSolid="1px solid black"
-            borderRadius="15px"
-            onClick={() => navigate('/Gallery')}
-          />
-
-          <button onClick={() => navigate('/Gallery')}>Gallery</button>
-
-          <CustomButton
-            text="Contact Us"
-            textColor="black"
-            bgColor="white"
-            borderColor="black"
-            fontWeight={700}
-            hoverTextColor="white"
-            hoverBgColor="black"
-            borderSolid="1px solid black"
-            borderRadius="15px"
-            onClick={handleOpenModal}
-            // onClick={() => navigate('/Contact')}
-          />
+        <div className={styles.aboutUsTitleBox}>
+          <h1 className={styles.aboutUsTitle}>Despre noi</h1>
         </div>
-        {isModalOpen && <ContactModal onClose={handleCloseModal} />}
-      </div>
+        <div className={styles.aboutUsDetailsBox1}>
+          <h2>Descoperiți Arte și Tehnică în Sudură</h2>
+          <p>
+            Suntem mândri să vă aducem o experiență de peste 25 de ani în
+            industria de confecții metalice. La AVR Weld Solutions, sudura
+            devine artă, iar metalul prinde viață în mâinile noastre pricepute
+          </p>
+        </div>
+        <div className={styles.aboutUsDetailsBox2}>
+          <h2>Ce Ne Diferențiază? Expertiză și Inovație</h2>
+          <p>
+            Deținem autorizație ISCIR și am lăsat amprente remarcabile în Europa
+            și Africa. Suntem pionieri în fabricarea și montarea traseelor de
+            tuburi metalice destinate transportului lichidelor și gazelor
+            industriale, oferind soluții la cheie pentru proiectele industriale
+          </p>
+        </div>
 
-      {/* <div className={styles.aboutUsImgBox}>
-        <img
-          className={styles.aboutUsImg}
-          src={avr7}
-          alt="avr_7"
-          width={800}
-          height={600}
+        <div className={styles.aboutUsDetailsBox3}>
+          <h2>Cum Vă Putem Ajuta?</h2>
+          <p>
+            Dacă sunteți în căutarea unor parteneri dedicați pentru proiectele
+            dvs. industriale, suntem aici pentru a vă oferi expertiza noastră.
+          </p>
+          <p>
+            {' '}
+            Concentrându-ne pe fabricarea și instalarea sistemelor de conducte
+            metalice, aducem inovație și eficiență în transportul lichidelor și
+            gazelor industriale.
+          </p>
+        </div>
+
+        <div className={styles.aboutUsDetailsBox4}>
+          <h2>Experiența AVR Weld Solutions:</h2>
+          <p>
+            <strong>Expertiză în Sudură:</strong> Certificați ISCIR și realizări
+            remarcabile.
+          </p>
+          <p>
+            <strong>Soluții Personalizate:</strong> Concentrăm eforturile pe
+            proiectele dvs. pentru a aduce valoare adăugată.
+          </p>
+          <p>
+            <strong>Inovație în Conducerea Metalică:</strong> Transformăm
+            metalele în soluții durabile și eficiente.
+          </p>
+        </div>
+
+        <div className={styles.aboutUsDetailsBox5}>
+          <h2>Dăm Formă Viselor Dvs. cu Foc și Metal!</h2>
+          <p>
+            Descoperiți{' '}
+            <Link to="/Services">
+              <mark>serviciile noastre</mark>
+            </Link>{' '}
+            și luați legătura pentru a începe împreună o călătorie în lumea
+            sudurii și a confecțiilor metalice.
+          </p>
+          <p>
+            <Link to="/Contact">
+              <mark>Contactați-ne</mark>
+            </Link>{' '}
+            pentru a discuta despre proiectul dvs.!
+          </p>
+        </div>
+      </div>
+      <div className={styles.aboutUsBtnBox}>
+        <CustomButton
+          text="Gallery"
+          textColor="black"
+          bgColor="white"
+          borderColor="black"
+          fontWeight={700}
+          hoverTextColor="white"
+          hoverBgColor="black"
+          borderSolid="1px solid black"
+          borderRadius="15px"
+          onClick={() => navigate('/Gallery')}
         />
-      </div> */}
+        <CustomButton
+          text="Services"
+          textColor="black"
+          bgColor="white"
+          borderColor="black"
+          fontWeight={700}
+          hoverTextColor="white"
+          hoverBgColor="black"
+          borderSolid="1px solid black"
+          borderRadius="15px"
+          onClick={() => navigate('/Services')}
+        />
+
+        <CustomButton
+          text="Contact"
+          textColor="black"
+          bgColor="white"
+          borderColor="black"
+          fontWeight={700}
+          hoverTextColor="white"
+          hoverBgColor="black"
+          borderSolid="1px solid black"
+          borderRadius="15px"
+          onClick={handleOpenModal}
+          // onClick={() => navigate('/Contact')}
+        />
+      </div>
+      {isModalOpen && <ContactModal onClose={handleCloseModal} />}
     </div>
   );
 }

@@ -12,7 +12,10 @@ function Footer() {
     'Blaj, jud. Alba',
     'Cod Poștal: 12345',
   ];
-  const contactData = ['T: +123 456 789', 'E: avrweldsolutions@gmail.com'];
+  const contactData = [
+    'Telefon: +123 456 789',
+    'Email: avrweldsolutions@gmail.com',
+  ];
   return (
     <footer>
       <div className={styles.footerBox}>
@@ -58,10 +61,10 @@ function Footer() {
           <h3>Follow us</h3>
           <span>
             <Link>
-              <BsFacebook className={styles.footerSocialIcon} />
+              <BsFacebook className={styles.footerSocialIcon1} />
             </Link>
             <Link>
-              <BsInstagram className={styles.footerSocialIcon} />
+              <BsInstagram className={styles.footerSocialIcon2} />
             </Link>
           </span>
         </div>

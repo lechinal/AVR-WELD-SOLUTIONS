@@ -28,7 +28,7 @@ function Contact() {
         <label>Name:</label>
         <input
           className={styles.inputField}
-          placeholder="Nume si prenume..."
+          placeholder=" Nume si prenume..."
           type="text"
           name="name"
           value={formData.name}
@@ -37,7 +37,7 @@ function Contact() {
         <label>Email:</label>
         <input
           className={styles.inputField}
-          placeholder="Email..."
+          placeholder=" Email..."
           type="email"
           name="email"
           value={formData.email}
@@ -46,7 +46,7 @@ function Contact() {
         <label>Message:</label>
         <textarea
           className={styles.textarea}
-          placeholder="Textul tau aici..."
+          placeholder=" Mesajul tau aici..."
           name="message"
           value={formData.message}
           onChange={handleChange}

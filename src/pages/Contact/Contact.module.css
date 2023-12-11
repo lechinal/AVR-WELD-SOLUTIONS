@@ -9,6 +9,9 @@
   gap: 15px;
   align-items: center;
 }
+.form label {
+  padding-top: 10px;
+}
 .inputField {
   width: 170px;
 }

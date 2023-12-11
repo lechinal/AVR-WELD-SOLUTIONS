@@ -90,16 +90,21 @@ footer {
   gap: 10px;
   padding-top: 10px;
 }
-.footerSocialIcon {
+.footerSocialIcon1,
+.footerSocialIcon2 {
   color: black;
   width: 25px;
   height: 25px;
   transition: all 0.3s ease-in-out;
 }
-
-.footerSocialIcon:hover {
+.footerSocialIcon1:hover {
   cursor: pointer;
   color: blue;
+  transform: scale(1.2);
+}
+.footerSocialIcon2:hover {
+  cursor: pointer;
+  color: #c13584;
   transform: scale(1.2);
 }
 /* Designed By */
@@ -147,7 +152,8 @@ footer {
   .footerSocial h3 {
     font-size: 16px;
   }
-  .footerSocialIcon {
+  .footerSocialIcon1,
+  .footerSocialIcon2 {
     width: 20px;
     height: 20px;
   }
@@ -177,7 +183,8 @@ footer {
   .footerSocial h3 {
     font-size: 14px;
   }
-  .footerSocialIcon {
+  .footerSocialIcon1,
+  .footerSocialIcon2 {
     width: 15px;
     height: 15px;
   }
@@ -196,7 +203,7 @@ footer {
     font-size: 12px;
   }
   .footerDetails address {
-    font-size: 10px;
+    font-size: 8px;
   }
   .footerNav h3 {
     font-size: 12px;
@@ -208,7 +215,8 @@ footer {
   .footerSocial h3 {
     font-size: 12px;
   }
-  .footerSocialIcon {
+  .footerSocialIcon1,
+  .footerSocialIcon2 {
     width: 13px;
     height: 13px;
   }
