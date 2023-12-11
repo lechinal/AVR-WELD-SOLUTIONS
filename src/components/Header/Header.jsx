@@ -18,7 +18,7 @@ function Header() {
   };
 
   return (
-    <>
+    <section>
       <nav className={styles.nav}>
         <div className={styles.logoBox}>
           <Link to="/" className={styles.logoLink}>
@@ -109,7 +109,7 @@ function Header() {
           {!isOpen ? <HamburgerMenuIcon /> : null}
         </div>
       </nav>
-    </>
+    </section>
   );
 }
 

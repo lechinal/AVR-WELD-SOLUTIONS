@@ -15,7 +15,9 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 auto auto 0;
+  /* margin: 0 auto; */
+
+  width: 100%;
 }
 
 .aboutUsTitle {
@@ -29,9 +31,13 @@
 .aboutUsTitleBox {
   background-image: url('images/desktopImg/avr-8-D.jpg');
   background-size: cover;
-  background-position: left 30% bottom 35%;
+  background-position: left 30% bottom 30%;
 
-  height: 300px;
+  height: 500px;
+  width: 100%;
+}
+
+.aboutUsBoxesContainer {
   width: 100%;
 }
 
@@ -45,7 +51,7 @@
   flex-direction: column;
   gap: 10px;
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
   padding: 10px 0 10px 0;
   color: white;
   background-color: #757575;

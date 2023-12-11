@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 1440px;
+  width: 1800px;
+  margin: 0 auto;
 }
 
 /* Mobile first */
@@ -27,7 +28,11 @@
 } */
 
 /* Desktiop first */
-@media (min-width: 1441px){.wrapper{width:100%;} }
+@media (min-width: 1441px) {
+  .wrapper {
+    width: 100%;
+  }
+}
 @media (max-width: 1440px) {
   .wrapper {
     width: 100%;
