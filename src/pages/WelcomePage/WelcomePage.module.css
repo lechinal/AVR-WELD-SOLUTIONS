@@ -20,6 +20,8 @@
     url('images/desktopImg/avr_11.jpg');
   background-size: cover;
   background-position: center;
+
+  background-size: contain;
 }
 
 .welcomeSection::before {
