@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.1e8d347f.css",
+    "main.css": "/AVR-WELD-SOLUTIONS/static/css/main.bd928909.css",
     "main.js": "/AVR-WELD-SOLUTIONS/static/js/main.e45c168b.js",
     "static/css/735.aa39b92a.chunk.css": "/AVR-WELD-SOLUTIONS/static/css/735.aa39b92a.chunk.css",
     "static/js/735.997e4c25.chunk.js": "/AVR-WELD-SOLUTIONS/static/js/735.997e4c25.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/weld-2.jpg": "/AVR-WELD-SOLUTIONS/static/media/weld-2.83e9d3980d080843b8f9.jpg",
     "static/media/weld-4.jpg": "/AVR-WELD-SOLUTIONS/static/media/weld-4.3b0c92dd2ca96f8df6e8.jpg",
     "index.html": "/AVR-WELD-SOLUTIONS/index.html",
-    "main.1e8d347f.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.1e8d347f.css.map",
+    "main.bd928909.css.map": "/AVR-WELD-SOLUTIONS/static/css/main.bd928909.css.map",
     "main.e45c168b.js.map": "/AVR-WELD-SOLUTIONS/static/js/main.e45c168b.js.map",
     "735.aa39b92a.chunk.css.map": "/AVR-WELD-SOLUTIONS/static/css/735.aa39b92a.chunk.css.map",
     "735.997e4c25.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/735.997e4c25.chunk.js.map",
@@ -42,7 +42,7 @@
     "884.ed317c5a.chunk.js.map": "/AVR-WELD-SOLUTIONS/static/js/884.ed317c5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e8d347f.css",
+    "static/css/main.bd928909.css",
     "static/js/main.e45c168b.js"
   ]
 }
