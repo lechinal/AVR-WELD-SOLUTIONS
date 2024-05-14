@@ -1,0 +1,200 @@
+.titleFirstPart {
+  height: 100px;
+
+  background: linear-gradient(to right, #659999, #f4791f);
+}
+
+.welcomeSection {
+  background-image: url("images/desktopImg/HomepageImg-D.png"),
+    linear-gradient(to right, #659999, #f4791f);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  min-height: 500px;
+  width: 100%;
+}
+
+.titleSecondPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titleSecondPart h1 {
+  font-size: 88px;
+  font-family: "Kalnia";
+
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+/* Title Animation */
+
+.titleAnimation h1 {
+  background-image: linear-gradient(to right, #ff0400, rgb(148, 213, 243));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(250px);
+  }
+}
+
+@keyframes moveRightToLeft {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-250px);
+  }
+}
+
+.titleSecondPartTitle h1 {
+  animation: moveRight 2s infinite alternate;
+}
+
+.titleSecondPartTitleTitle h1 {
+  animation: moveRightToLeft 2s infinite alternate;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px 0 20px 0;
+
+  text-align: center;
+
+  background: linear-gradient(to right, #659999, #f4791f);
+}
+
+.images {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.images img {
+  border: 3px groove #605c3c;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* .text p {
+  font-size: 27px;
+} */
+
+.btn {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 20px;
+
+  /* background-color: #fff5f6; */
+  background: linear-gradient(to right, #659999, #f4791f);
+}
+
+/* Responsive */
+
+@media (max-width: 1600px) {
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1300px) {
+}
+@media (max-width: 1050px) {
+}
+@media (max-width: 950px) {
+}
+
+@media (max-width: 768px) {
+  .welcomeSection {
+    width: 768px;
+
+    background-image: url("images/desktopImg/HomepageImg-D.png"),
+      linear-gradient(
+        to bottom right,
+        rgba(137, 207, 240, 0.6),
+        rgba(80, 133, 139, 0.6)
+      );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 40px;
+  }
+  .text {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .text {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .text {
+    width: 350px;
+    text-align: center;
+  }
+}
+@media (max-width: 385px) {
+  .welcomeSection {
+    width: 385px;
+
+    background-image: url("images/desktopImg/HomepageImg-D.png"),
+      linear-gradient(
+        to bottom right,
+        rgba(137, 207, 240, 0.6),
+        rgba(80, 133, 139, 0.6)
+      );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 30px;
+  }
+  .text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .welcomeSection {
+    width: 320px;
+
+    background-image: url("images/desktopImg/HomepageImg-D.png"),
+      linear-gradient(
+        to bottom right,
+        rgba(137, 207, 240, 0.6),
+        rgba(80, 133, 139, 0.6)
+      );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .titleFirstPart h1,
+  .titleSecondPart h1 {
+    font-size: 20px;
+  }
+  .text {
+    width: 250px;
+  }
+}

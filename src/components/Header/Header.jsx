@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import HamburgerMenuIcon from '../HamburgerMenuIcon/HamburgerMenuIcon';
-import CloseHamburgerMenuIcon from '../CloseHamburgerMenuIcon/CloseHamburgerMenuIcon';
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import HamburgerMenuIcon from "../HamburgerMenuIcon/HamburgerMenuIcon";
+import CloseHamburgerMenuIcon from "../CloseHamburgerMenuIcon/CloseHamburgerMenuIcon";
 
-import styles from './Header.module.css';
-import logoAvrWeld from '../../images/logoAvrWeld.svg';
+import styles from "./Header.module.css";
+// import logo from '../../images/logoAVR-small.svg';
+import logoBig from "../../images/logoAVR-big.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,20 +23,20 @@ function Header() {
       <nav className={styles.nav}>
         <div className={styles.logoBox}>
           <Link to="/" className={styles.logoLink}>
-            <img className={styles.logoImg} src={logoAvrWeld} alt="Logo" />
+            <img className={styles.logoImg} src={logoBig} alt="Logo" />
             <h3 className={styles.logoTitle}>
               Montaje și Reparații Tuberie Industrială, Structuri Metalice
             </h3>
           </Link>
         </div>
 
-        <div className={`${styles.listBox} ${isOpen ? '' : styles.hidden}`}>
+        <div className={`${styles.listBox} ${isOpen ? "" : styles.hidden}`}>
           <ul className={styles.open}>
             <li className={styles.element}>
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive ? `${styles.active} ${styles.noHover}` : ''
+                  isActive ? `${styles.active} ${styles.noHover}` : ""
                 }
                 onClick={closeMenu}
               >

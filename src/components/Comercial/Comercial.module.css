@@ -1,0 +1,20 @@
+.comercial {
+  margin: 20px;
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer {
+  display: flex;
+  gap: 30px;
+}
+.imgContainer img {
+  opacity: 0.6;
+}
+.imgContainer img:hover {
+  cursor: pointer;
+  opacity: 1;
+}

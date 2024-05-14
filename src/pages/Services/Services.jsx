@@ -1,9 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import CustomButton from 'components/CustomButton/CustomButton';
 import styles from './Services.module.css';
 import servicesData from '../../data/servicesData';
-import { useNavigate } from 'react-router-dom';
 
 function Services() {
   const navigate = useNavigate('');

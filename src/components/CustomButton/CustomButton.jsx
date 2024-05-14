@@ -1,5 +1,5 @@
-import React from 'react';
-import Button from '@mui/material/Button';
+import React from "react";
+import Button from "@mui/material/Button";
 
 function CustomButton({
   text,
@@ -19,6 +19,10 @@ function CustomButton({
   bottom,
   right,
   left,
+  pdL,
+  pdT,
+  pdB,
+  pdR,
 }) {
   return (
     <Button
@@ -35,8 +39,12 @@ function CustomButton({
         bottom: bottom,
         right: right,
         left: left,
+        paddingLeft: pdL,
+        paddingTop: pdT,
+        paddingRight: pdR,
+        paddingBottom: pdB,
 
-        '&:hover': {
+        "&:hover": {
           color: hoverTextColor,
           backgroundColor: hoverBgColor,
           borderColor: hoverBorderColor,

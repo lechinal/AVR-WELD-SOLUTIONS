@@ -7,7 +7,7 @@ import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 import { Loader } from 'components/Loader/Loader';
 
-const WelcomePage = lazy(() => import('pages/WelcomePage/WelcomePage'));
+const Home = lazy(() => import('pages/Home/Home'));
 const AboutUs = lazy(() => import('pages/AboutUs/AboutUs'));
 const Gallery = lazy(() => import('pages/Gallery/Gallery'));
 const Services = lazy(() => import('pages/Services/Services'));
@@ -21,7 +21,7 @@ export const App = () => {
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route exact path="/" element={<WelcomePage />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />

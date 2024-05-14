@@ -1,8 +1,12 @@
 /* Header container */
 .nav {
-  background-color: #c2bebe;
+  /* background-color: #118ab2; */
+  /* background-color: #00a8e8; */
 
-  border-bottom: 2px solid #c2bebe;
+  /* background-color: #659999; */
+  background: linear-gradient(to left, #659999, #f4791f);
+
+  /* border-bottom: 1px solid; */
 
   position: sticky;
   top: 0;
@@ -33,7 +37,7 @@
 }
 .logoTitle {
   font-size: 22px;
-  color: black;
+  color: #fff;
 }
 
 /* Navigation/ul container */
@@ -52,22 +56,29 @@
   text-decoration: none;
   font-size: 15px;
   font-weight: 600;
-  color: black;
+  color: #fff;
 
   transition: all 0.3s ease-in-out;
 }
 
 .element a:hover {
-  color: red;
+  color: #118ab2;
   background-color: #f0f0f0;
-  padding: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
   border-radius: 15px;
+  padding: 10px 20px;
 }
 
 .element a.active {
-  color: #1d4ed8;
-  text-decoration: underline;
+  color: #3a3939;
+  background-image: linear-gradient(to left, #fd5b4f, #188bc0);
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 2px 4px#fff;
 }
 
 .noHover {

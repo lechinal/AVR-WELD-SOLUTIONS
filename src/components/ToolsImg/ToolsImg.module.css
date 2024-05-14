@@ -1,0 +1,24 @@
+.toolsImgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image:hover {
+  animation: rotate 1s linear infinite;
+}

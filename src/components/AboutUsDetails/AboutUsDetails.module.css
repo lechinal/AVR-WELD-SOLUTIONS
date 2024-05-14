@@ -1,0 +1,20 @@
+.detailsText {
+  padding: 0 20px 20px 0;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailsText h3 {
+  color: #000;
+  font-size: 50px;
+
+  text-transform: uppercase;
+}
+
+.detailsText p {
+  color: #818a91;
+  font-size: 20px;
+  padding-top: 10px;
+}

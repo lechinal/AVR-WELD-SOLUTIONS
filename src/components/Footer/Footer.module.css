@@ -1,7 +1,17 @@
 footer {
-  background-color: #c2bebe;
+  background-color: #54595f;
   height: 100%;
   width: 100%;
+
+  border-top: 1px solid;
+}
+
+footer h3 {
+  color: #c4c4c4;
+}
+
+footer p {
+  color: #9a9693;
 }
 
 .footerBox {
@@ -18,7 +28,7 @@ footer {
 
 .footerAddress h3,
 .footerContact h3 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 20px;
 }
 
@@ -26,17 +36,34 @@ footer {
   font-style: normal;
   font-size: 16px;
   transition: all 0.3s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
-.footerDetails address:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
+
 .footerAddress,
 .footerContact {
   margin: 15px 0 15px 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.addressItem,
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4e4d49;
+}
+
+.contactItem {
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 /* Navigation */
@@ -49,26 +76,25 @@ footer {
   padding-top: 15px;
 }
 .footerNav h3 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 20px;
 }
+
 .footerNav span {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
-  gap: 5px;
+  gap: 10px;
   text-align: center;
   padding-top: 10px;
-
-  /* width: max-content; */
 }
 .footerNav span a:hover {
   color: red;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .link {
-  color: black;
+  color: #9a9693;
   font-size: 16px;
   text-decoration: none;
 }
@@ -81,7 +107,7 @@ footer {
   padding-top: 15px;
 }
 .footerSocial h3 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 20px;
 }
 .footerSocial span {
