@@ -6,7 +6,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-import logo from "../../images/logoAVR-small.svg";
+// import logo from "../../images/logoAVR-small.svg";
 import phoneIcon from "../../images/phone.svg";
 import emailIcon from "../../images/envelope.svg";
 import adressIcon from "../../images/locationPin.svg";
