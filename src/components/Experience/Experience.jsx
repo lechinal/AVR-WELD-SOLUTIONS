@@ -31,13 +31,12 @@ function Experience() {
         </div>
         <div className={styles.card}>
           <p>
-            <strong>Inovație în Conducerea Metalică: </strong>La AVR Weld
-            Solutions, inovația este în centrul a tot ceea ce facem. Suntem
-            mereu în căutarea de noi tehnologii și metode pentru a transforma
-            metalele în soluții durabile și eficiente. Cu un focus constant pe
-            îmbunătățirea proceselor noastre și aducerea de inovații în domeniu,
-            ne asigurăm că fiecare proiect este la vârful tehnologiei și oferă
-            rezultate deosebite.
+            <strong>Inovație în Conducerea Metalică: </strong> Suntem mereu în
+            căutarea de noi tehnologii și metode pentru a transforma metalele în
+            soluții durabile și eficiente. Cu un focus constant pe îmbunătățirea
+            proceselor noastre și aducerea de inovații în domeniu, ne asigurăm
+            că fiecare proiect este la vârful tehnologiei și oferă rezultate
+            deosebite.
           </p>
         </div>
       </div>
@@ -46,3 +45,6 @@ function Experience() {
 }
 
 export default Experience;
+
+// ! La AVR Weld
+// ! Solutions, inovația este în centrul a tot ceea ce facem.

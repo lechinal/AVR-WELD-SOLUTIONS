@@ -24,19 +24,14 @@
 
 .titleSecondPart h1 {
   font-size: 88px;
-  font-family: "Kalnia";
+  font-family: var(--fontRobotoBold700);
+  color: var(--primaryColor);
 
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
 
 /* Title Animation */
-
-.titleAnimation h1 {
-  background-image: linear-gradient(to right, #ff0400, rgb(148, 213, 243));
-  -webkit-background-clip: text;
-  color: transparent;
-}
 
 @keyframes moveRight {
   from {
@@ -81,6 +76,14 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.images h4 {
+  font-family: var(--fontRobotoLight300);
+}
+.images h4:hover {
+  /* color: #ce9233; */
+  color: #fff;
 }
 
 .images img {

@@ -12,6 +12,7 @@ function CustomButton({
   hoverBgColor,
   hoverBorderColor,
   marginBottom,
+  marginTop,
   borderRadius,
   onClick,
   positionRelative,
@@ -23,6 +24,7 @@ function CustomButton({
   pdT,
   pdB,
   pdR,
+  padding,
 }) {
   return (
     <Button
@@ -33,6 +35,7 @@ function CustomButton({
         fontWeight: fontWeight,
         border: borderSolid,
         marginBottom: marginBottom,
+        marginTop: marginTop,
         borderRadius: borderRadius,
         position: positionRelative,
         top: top,
@@ -43,6 +46,7 @@ function CustomButton({
         paddingTop: pdT,
         paddingRight: pdR,
         paddingBottom: pdB,
+        padding: padding,
 
         "&:hover": {
           color: hoverTextColor,

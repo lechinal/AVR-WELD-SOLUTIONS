@@ -57,15 +57,24 @@ footer p {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #4e4d49;
 }
 
-.contactItem {
-  padding-bottom: 10px;
+.addressItem p {
+  border-bottom: 1px solid #ce9233;
+  padding-bottom: 15px;
+}
+
+.contactItem p {
+  border-bottom: 1px solid #ce9233;
+  padding-bottom: 15px;
   padding-top: 15px;
 }
 
+address p:hover {
+  color: #ce9233;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
 /* Navigation */
 
 .footerNav {
@@ -89,7 +98,7 @@ footer p {
   padding-top: 10px;
 }
 .footerNav span a:hover {
-  color: red;
+  color: #ce9233;
   /* text-decoration: underline; */
 }
 

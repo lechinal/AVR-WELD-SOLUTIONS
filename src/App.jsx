@@ -1,19 +1,19 @@
-import React, { Suspense, lazy } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { Suspense, lazy } from "react";
+import { Route, Routes } from "react-router-dom";
 
-import styles from './App.module.css';
+import styles from "./App.module.css";
 
-import Header from 'components/Header/Header';
-import Footer from 'components/Footer/Footer';
-import { Loader } from 'components/Loader/Loader';
+import Header from "components/Header/Header";
+import Footer from "components/Footer/Footer";
+import { Loader } from "components/Loader/Loader";
 
-const Home = lazy(() => import('pages/Home/Home'));
-const AboutUs = lazy(() => import('pages/AboutUs/AboutUs'));
-const Gallery = lazy(() => import('pages/Gallery/Gallery'));
-const Services = lazy(() => import('pages/Services/Services'));
-const Contact = lazy(() => import('pages/Contact/Contact'));
-const Details = lazy(() => import('pages/Details/Details'));
-const NotFound = lazy(() => import('pages/NotFound/NotFound'));
+const Home = lazy(() => import("pages/Home/Home"));
+const AboutUs = lazy(() => import("pages/AboutUs/AboutUs"));
+const Gallery = lazy(() => import("pages/Gallery/Gallery"));
+const Services = lazy(() => import("pages/Services/Services"));
+const Contact = lazy(() => import("pages/Contact/Contact"));
+const Details = lazy(() => import("pages/Details/Details"));
+const NotFound = lazy(() => import("pages/NotFound/NotFound"));
 
 export const App = () => {
   return (

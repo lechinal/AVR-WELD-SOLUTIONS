@@ -4,7 +4,7 @@ import heroImg1 from "../../images/heroImg/heroS1.jpeg";
 import heroImg2 from "../../images/heroImg/heroS2.jpeg";
 import heroImg3 from "../../images/heroImg/heroS3.png";
 import heroImg4 from "../../images/heroImg/heroS4.jpeg";
-import listBullet from "../../images/bulletRight.svg";
+// import listBullet from "../../images/bulletRight.svg";
 
 function HeroSection() {
   return (
@@ -34,17 +34,12 @@ function HeroSection() {
         <div className={styles.belowContentSide}>
           <div className={styles.leftContainer}>
             <ul className={styles.list}>
+              <li>Servicii profesionale</li>
+              <li>Echipa de specialisti</li>
+              <li>Preturi competitive</li>
               <li>
-                <img src={listBullet} alt="bullet" /> Servicii profesionale
-              </li>
-              <li>
-                <img src={listBullet} alt="bullet" /> Echipa de specialisti
-              </li>
-              <li>
-                <img src={listBullet} alt="bullet" /> Preturi competitive
-              </li>
-              <li>
-                <img src={listBullet} alt="bullet" /> Echipamente moderne
+                {/* <img src={listBullet} alt="bullet" />  */}
+                Echipamente moderne
               </li>
             </ul>
           </div>

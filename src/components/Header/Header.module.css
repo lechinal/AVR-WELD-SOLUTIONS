@@ -72,12 +72,10 @@
 }
 
 .element a.active {
-  color: #3a3939;
-  background-image: linear-gradient(to left, #fd5b4f, #188bc0);
+  border: 3px solid #ce9233;
   border-radius: 15px;
   padding: 10px 20px;
 
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
   box-shadow: 0 2px 4px#fff;
 }
 

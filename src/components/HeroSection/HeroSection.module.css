@@ -47,11 +47,11 @@
   gap: 20px;
 }
 .text h2 {
-  color: #181614;
+  color: var(--darkColor);
   text-transform: uppercase;
-
-  font-size: 50px;
-  font-weight: 900;
+  font-family: var(--fontFamilyRoboto);
+  font-size: var(--fontSize50);
+  font-weight: var(--fontWeight900);
   line-height: 70px;
 }
 .text p {
@@ -80,7 +80,7 @@
 
 .list {
   list-style-type: none;
-  /* list-style-image: url("../../images/bulletRight.svg"); */
+  list-style-image: url("../../images/bulletRight.svg");
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -88,11 +88,13 @@
   color: #797672;
 }
 
-.list img {
+/* .list img {
   width: 5px;
   margin-right: 10px;
+} */
+.list li:hover {
+  color: #ce9233;
 }
-
 .rightContainer {
   display: flex;
   flex-direction: column;

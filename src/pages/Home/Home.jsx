@@ -56,13 +56,15 @@ function Home() {
             text="Contact"
             textColor="black"
             bgColor="white"
-            borderColor="black"
+            borderColor="white"
             fontWeight={700}
-            borderSolid="1px solid black"
-            hoverTextColor="white"
+            hoverTextColor="#fff"
             hoverBgColor="black"
             marginBottom="25px"
-            borderRadius="15px"
+            pdL="30px"
+            pdR="30px"
+            pdT="15px"
+            pdB="15px"
             onClick={() => navigate("/Contact")}
           />
         </div>

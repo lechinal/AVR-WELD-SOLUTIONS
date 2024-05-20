@@ -39,7 +39,6 @@ function Comercial() {
   // am definit nr de imagini si le-am stocat intr-un array,
   // astfel, daca adaugam sau elinimam imagini,
   // nu va trebui sa modificam manual codul jsx
-
   // const numImages = 5;
 
   return (

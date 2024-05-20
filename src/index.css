@@ -4,21 +4,105 @@
   box-sizing: border-box;
 }
 
-@import-normalize;
-bring in normalize.css styles body {
+@import-normalize; /* bring in normalize.css styles  */
+
+body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, "Roboto", "Oxygen", sans-serif, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Roboto";
 }
 
-body {
-  font-family: 'Roboto', sans-serif, 'Kalnia', serif;
+p,
+ul,
+li,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  /** Font family */
+  --fontFamilyRoboto: "Roboto", sans-serif;
+  --fontFamilyRobotoSlab: "Roboto Slab", serif;
+
+  --fontRobotoLight300: var(--fontFamilyRoboto);
+  --fontRobotoRegular400: var(--fontFamilyRoboto);
+  --fontRobotoMedium500: var(--fontFamilyRoboto);
+  --fontRobotoBold700: var(--fontFamilyRoboto);
+  --fontRobotoBlack900: var(--fontFamilyRoboto);
+
+  --fontRobotoSlabLight300: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight400: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight500: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight700: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight900: var(--fontFamilyRobotoSlab);
+
+  /** Font Weights */
+  --fontWeight300: 300;
+  --fontWeight400: 400;
+  --fontWeight500: 500;
+  --fontWeight700: 700;
+  --fontWeight900: 900;
+
+  /** Font Sizes */
+  --fontSize8: 8px;
+  --fontSize10: 10px;
+  --fontSize12: 12px;
+  --fontSize14: 14px;
+  --fontSize16: 16px;
+  --fontSize18: 18px;
+  --fontSize19: 19px;
+  --fontSize28: 28px;
+  --fontSize40: 40px;
+  --fontSize50: 50px;
+  --fontSize70: 70px;
+
+  /** Line height */
+  --lineHeight32: 32px;
+
+  /** Border Radius */
+  --borderRadius6: 6px;
+  --borderRadius8: 8px;
+  --borderRadius10: 10px;
+  --borderRadius15: 15px;
+  --borderRadius20: 20px;
+
+  /** Colors */
+  --primaryColor: #ce9233;
+  --lightColor: #fff;
+  --darkColor: #181614;
+  --textColor: #797672;
 }

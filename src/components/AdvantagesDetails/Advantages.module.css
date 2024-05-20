@@ -1,0 +1,44 @@
+.advantagesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ce9233;
+  font-size: 16px;
+  border: 4px solid #ce9233;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+/* .advantage {
+  display: flex;
+  flex-direction: row;
+} */
+
+.advantagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advantageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.advantageContainer h3 {
+  margin-left: 20px;
+}
