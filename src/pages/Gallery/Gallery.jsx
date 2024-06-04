@@ -10,6 +10,10 @@ function Gallery() {
         <h1>Galerie</h1>
       </div>
       <GalleryGrid />
+      <div className={styles.newSection}>
+        the new section, which will be here needs to be a new component, maybe
+        with this color
+      </div>
     </div>
   );
 }
