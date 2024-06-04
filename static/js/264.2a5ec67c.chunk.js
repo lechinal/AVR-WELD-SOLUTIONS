@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkavr_weld_solutions=self.webpackChunkavr_weld_solutions||[]).push([[264],{8264:function(l,e,r){r.r(e),r.d(e,{default:function(){return s}});r(2791);var n="Gallery_gallery__hUbWX",a=r(184);var s=function(){return(0,a.jsx)("div",{id:"gallery",className:n,children:(0,a.jsx)("h1",{children:"Gallery"})})}}}]);
-//# sourceMappingURL=264.2a5ec67c.chunk.js.map
