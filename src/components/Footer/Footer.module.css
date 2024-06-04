@@ -58,7 +58,9 @@ footer p {
   justify-content: center;
   gap: 15px;
 }
-
+.addressItem .icon {
+  margin-bottom: 20px;
+}
 .addressItem p {
   border-bottom: 1px solid #ce9233;
   padding-bottom: 15px;

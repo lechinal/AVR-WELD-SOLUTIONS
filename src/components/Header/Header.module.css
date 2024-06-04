@@ -1,4 +1,9 @@
 /* Header container */
+.section {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .nav {
   /* background-color: #118ab2; */
   /* background-color: #00a8e8; */
@@ -8,9 +13,9 @@
 
   /* border-bottom: 1px solid; */
 
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1000; */
 
   display: flex;
   align-items: center;

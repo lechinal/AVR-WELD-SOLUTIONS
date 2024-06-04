@@ -37,6 +37,7 @@ function Footer() {
                   <img
                     src={text.icon}
                     alt="location pin"
+                    className={styles.icon}
                     width={15}
                     height={15}
                   />

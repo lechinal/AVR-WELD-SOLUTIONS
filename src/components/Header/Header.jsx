@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import HamburgerMenuIcon from "../HamburgerMenuIcon/HamburgerMenuIcon";
 import CloseHamburgerMenuIcon from "../CloseHamburgerMenuIcon/CloseHamburgerMenuIcon";
 
@@ -9,6 +9,7 @@ import logoBig from "../../images/logoAVR-big.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -18,8 +19,12 @@ function Header() {
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // resets scoll position on every page change
+  }, [location]);
+
   return (
-    <section>
+    <section className={styles.section}>
       <nav className={styles.nav}>
         <div className={styles.logoBox}>
           <Link to="/" className={styles.logoLink}>

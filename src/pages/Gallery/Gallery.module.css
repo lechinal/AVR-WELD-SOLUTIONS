@@ -1,4 +1,31 @@
 .gallery {
-  background-color: #a3c3e3;
+  /* background-color: #dadce0; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titleContainer h1 {
+  font-family: var(--fontRobotoSlabLight900);
+  font-weight: var(--fontWeight900);
+
+  font-size: var(--fontSize70);
+  font-weight: var(--fontWeight900);
+  color: var(--primaryColor);
+  text-transform: uppercase;
+}
+
+.newSection {
+  width: 100%;
   height: 300px;
+  background-color: #dadce0;
 }
