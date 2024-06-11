@@ -1,3 +1,8 @@
+.galleryContainer {
+  display: flex;
+  justify-content: center; /* Aliniază `.imageContainer` în centru pe axa orizontală */
+}
+
 .imageContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

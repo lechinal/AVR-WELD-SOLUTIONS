@@ -22,7 +22,7 @@ function AboutUs() {
       </div>
       <Experience />
 
-      <div className={styles.butoane}>
+      <div className={styles.buttons}>
         <CustomButton
           text="Contact"
           textColor="black"

@@ -19,6 +19,9 @@ import weld5 from "../../images/toolsImg/welding8.svg";
 import weld6 from "../../images/toolsImg/welding4.svg";
 function GalleryGrid() {
   return (
+    <section className={styles.galleryContainer}>
+
+    
     <div className={styles.imageContainer}>
       <div className={styles.column1}>
         <img src={weld1} alt="line" width={100} className={styles.svg3} />
@@ -96,6 +99,7 @@ function GalleryGrid() {
         <img src={weld6} alt="line" width={100} className={styles.svg1} />
       </div>
     </div>
+    </section>
   );
 }
 
