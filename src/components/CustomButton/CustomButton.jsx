@@ -26,9 +26,11 @@ function CustomButton({
   pdR,
   padding,
   transition,
+  type,
 }) {
   return (
     <Button
+      type={type}
       sx={{
         color: textColor,
         backgroundColor: bgColor,

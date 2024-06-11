@@ -4,6 +4,7 @@ import heroImg1 from "../../images/heroImg/heroS1.jpeg";
 import heroImg2 from "../../images/heroImg/heroS2.jpeg";
 import heroImg3 from "../../images/heroImg/heroS3.png";
 import heroImg4 from "../../images/heroImg/heroS4.jpeg";
+import ToolsImg from "components/ToolsImg/ToolsImg";
 // import listBullet from "../../images/bulletRight.svg";
 
 function HeroSection() {
@@ -62,6 +63,9 @@ function HeroSection() {
         </div>
 
         <div className={styles.subtitle2}>SUDURA SI LUCRARI METALICE</div>
+        <div className={styles.toolsContainer}>
+          <ToolsImg />
+        </div>
       </div>
     </section>
   );

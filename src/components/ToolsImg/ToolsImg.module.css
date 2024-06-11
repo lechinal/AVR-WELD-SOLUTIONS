@@ -1,24 +1,33 @@
 .toolsImgContainer {
-  position: relative;
   width: 100%;
   height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin-bottom: 30px;
 }
 
 .image {
-  position: absolute;
+  display: flex;
+  justify-content: center;
 
-  transition: transform 0.3s ease-in-out;
-}
+  background: #fff;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  padding: 10px 20px;
+  font-size: 27px;
+  border-radius: 15px;
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .image:hover {
-  animation: rotate 1s linear infinite;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 10px rgba(206, 146, 51, 0.5);
 }

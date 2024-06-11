@@ -10,7 +10,7 @@ import CustomButton from "components/CustomButton/CustomButton";
 import HeroSection from "components/HeroSection/HeroSection";
 import ProjectSection from "components/ProjectSection/ProjectSection";
 import Quality from "components/Quality/Quality";
-import Comercial from "components/Comercial/Comercial";
+
 
 function Home() {
   const navigate = useNavigate("");
@@ -72,7 +72,7 @@ function Home() {
       <HeroSection />
       <ProjectSection />
       <Quality />
-      <Comercial />
+     
     </>
   );
 }

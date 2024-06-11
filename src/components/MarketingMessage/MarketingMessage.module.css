@@ -45,8 +45,9 @@
   margin-bottom: 50px;
 
   max-width: 800px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  /* transition: transform 0.3s, box-shadow 0.3s; */
   animation: pulse 3s infinite;
+  transition: all 0.5s ease-in-out;
 }
 
 .quote h3 {
@@ -54,8 +55,18 @@
   color: #333;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: linear-gradient(to right, #ce9233, #f5b342);
-  -webkit-background-clip: text;
-  color: transparent;
-  transition: background-position 0.5s;
+
+  color: #ce9233;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.quote:hover {
+  background-color: #ce9233;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(206, 146, 51, 0.8);
+}
+
+.quote:hover h3 {
+  color: #fff;
 }
