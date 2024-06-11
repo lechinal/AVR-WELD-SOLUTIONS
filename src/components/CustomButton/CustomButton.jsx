@@ -25,6 +25,7 @@ function CustomButton({
   pdB,
   pdR,
   padding,
+  transition,
 }) {
   return (
     <Button
@@ -47,6 +48,7 @@ function CustomButton({
         paddingRight: pdR,
         paddingBottom: pdB,
         padding: padding,
+        transition: transition,
 
         "&:hover": {
           color: hoverTextColor,

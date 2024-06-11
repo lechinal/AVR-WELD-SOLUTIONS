@@ -33,33 +33,42 @@
   object-fit: cover;
   margin-bottom: 20px;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 3px groove black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 
   transition: all 0.5s ease-in-out;
 }
 
 .img:hover {
-  /* transform: scale(1.1, 1.1); */
   width: 100%;
 }
 
 .svg1,
 .svg2,
 .svg3 {
-  border: 2px solid black;
   border-radius: 15px;
 
   transition: all 0.5s ease-in-out;
+  animation: delayedWaveAnimation 5s infinite ease-in-out;
 }
-.svg2 {
-  margin-bottom: 20px;
-}
+
+.svg2,
 .svg3 {
   margin-bottom: 20px;
 }
 
-.svg1:hover,
-.svg2:hover,
-.svg3:hover {
-  transform: scaleX(1) rotate(360deg);
+@keyframes delayedWaveAnimation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  75% {
+    transform: translateX(60px);
+  }
 }

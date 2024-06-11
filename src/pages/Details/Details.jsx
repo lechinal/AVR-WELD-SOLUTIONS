@@ -36,7 +36,14 @@ function Details() {
       </div>
 
       <div className={styles.backBtn}>
-        <GoBackButton />
+        <GoBackButton
+          textColor="#ce9233"
+          border="2px solid #ce9233"
+          hoverTextColor="white"
+          hoverBorder="2px solid white"
+          hoverBgColor="#ce9233"
+          transtion="all 0.5s ease-in-out"
+        />
       </div>
     </div>
   );

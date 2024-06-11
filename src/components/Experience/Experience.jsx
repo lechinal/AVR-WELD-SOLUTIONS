@@ -1,5 +1,5 @@
 import styles from "./Experience.module.css";
-
+import MarketingMessage from "components/MarketingMessage/MarketingMessage";
 function Experience() {
   return (
     <div className={styles.experience}>
@@ -40,11 +40,9 @@ function Experience() {
           </p>
         </div>
       </div>
+      <MarketingMessage />
     </div>
   );
 }
 
 export default Experience;
-
-// ! La AVR Weld
-// ! Solutions, inovația este în centrul a tot ceea ce facem.

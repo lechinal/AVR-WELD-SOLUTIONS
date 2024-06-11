@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../Gallery/Gallery.module.css";
 
 import GalleryGrid from "components/GalleryGrid/GalleryGrid";
+import ProjectsGrid from "components/ProjectsGrid/ProjectsGrid";
+import ProjectSection from "components/ProjectSection/ProjectSection";
 
 function Gallery() {
   return (
@@ -10,10 +12,8 @@ function Gallery() {
         <h1>Galerie</h1>
       </div>
       <GalleryGrid />
-      <div className={styles.newSection}>
-        the new section, which will be here needs to be a new component, maybe
-        with this color
-      </div>
+      <ProjectsGrid />
+      <ProjectSection />
     </div>
   );
 }

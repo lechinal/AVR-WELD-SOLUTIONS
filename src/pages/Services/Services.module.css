@@ -4,7 +4,17 @@
 }
 
 .titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+
+  background-image: url("../../images/servicesImg/weld-1.png");
+  background-size: cover;
+  background-position: 15% 85%;
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 .titleContainer h1 {
@@ -13,6 +23,6 @@
 
   font-size: var(--fontSize70);
   font-weight: var(--fontWeight900);
-  color: var(--primaryColor);
+  color: var(--lightColor);
   text-transform: uppercase;
 }

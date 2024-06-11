@@ -4,7 +4,16 @@ import Button from "@mui/material/Button";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useNavigate } from "react-router-dom";
 
-function GoBackButton() {
+function GoBackButton({
+  textColor,
+  bgColor,
+  border,
+  hoverTextColor,
+  hoverBgColor,
+  hoverBorderColor,
+  hoverBorder,
+  transtion,
+}) {
   const navigate = useNavigate();
 
   const handleGoBack = () => {
@@ -19,12 +28,15 @@ function GoBackButton() {
         onClick={handleGoBack}
         className={styles.customBtn}
         sx={{
-          color: "#ce9233",
-          border: "2px solid #ce9233",
+          color: textColor,
+          backgroundColor: bgColor,
+          border: border,
+          transition: transtion,
           "&:hover": {
-            backgroundColor: "#ce9233",
-            color: "white",
-            border: "2px solid #ce9223",
+            color: hoverTextColor,
+            backgroundColor: hoverBgColor,
+            borderColor: hoverBorderColor,
+            border: hoverBorder,
           },
         }}
       >
@@ -35,3 +47,12 @@ function GoBackButton() {
 }
 
 export default GoBackButton;
+
+// color: "#ce9233",
+//           border: "2px solid #ce9233",
+//           "&:hover": {
+//             backgroundColor: "#ce9233",
+//             color: "white",
+//             border: "2px solid #ce9223",
+//           },
+//         }}

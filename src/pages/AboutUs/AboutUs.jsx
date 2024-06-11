@@ -29,6 +29,7 @@ function AboutUs() {
           bgColor="white"
           borderColor="white"
           fontWeight={700}
+          transition="all 0.5s ease-in-out"
           hoverTextColor="#ce9233"
           hoverBgColor="black"
           marginBottom="25px"
@@ -44,6 +45,7 @@ function AboutUs() {
           bgColor="white"
           borderColor="white"
           fontWeight={700}
+          transition="all 0.5s ease-in-out"
           hoverTextColor="#ce9233"
           hoverBgColor="black"
           marginBottom="25px"
@@ -59,6 +61,7 @@ function AboutUs() {
           bgColor="white"
           borderColor="white"
           fontWeight={700}
+          transition="all 0.5s ease-in-out"
           hoverTextColor="#ce9233"
           hoverBgColor="black"
           marginBottom="25px"

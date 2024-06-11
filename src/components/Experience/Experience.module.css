@@ -1,6 +1,11 @@
 .experience {
   background-color: #f9f8f7;
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .pageTitle {
@@ -46,7 +51,7 @@
 }
 
 .card:hover {
-  border: 4px solid #ce9233;
+  border: 3px solid #ce9233;
 }
 
 .card p {

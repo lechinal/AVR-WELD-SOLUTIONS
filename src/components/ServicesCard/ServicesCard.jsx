@@ -29,6 +29,7 @@ function ServicesCard() {
               textColor="#797672;"
               bgColor="#f9f8f7"
               fontWeight={700}
+              transition="all ease-in-out 0.5s"
               hoverTextColor="white"
               hoverBgColor="#ce9233"
               marginBottom="25px"
