@@ -1,10 +1,63 @@
 .mapSection {
-  background-color: #ce9233;
+  background-color: var(--primaryColor);
   padding: 35px 0 35px 0;
 
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
+.mapSectionTitle {
+  font-family: var(--fontRobotoSlabLight400);
+  font-size: 16px;
+  font-weight: var(--fontWeight500);
+  color: white;
+  text-align: center;
+  border: 4px solid white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 250px;
+
+  text-transform: uppercase;
+
+  transition: all 0.5s ease-in-out;
+  animation: colorsChange 2s infinite;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/** mapSectionTitle Animation */
+
+@keyframes colorsChange {
+  0% {
+    color: var(--darkColor);
+    border: 4px solid var(--darkColor);
+  }
+  50% {
+    color: var(--lightColor);
+    border: 4px solid var(--lightColor);
+  }
+  100% {
+    color: var(--greenColor);
+    border: 4px solid var(--greenColor);
+  }
+}
+
+.mapSectionTitle:hover {
+  color: black;
+  border: 4px solid black;
+}
+
+.mapSectionTitle:hover {
+  animation: none;
+}
+
+/** mapSectionTitle Animation */
 
 .mapContainer {
   width: 100%;
@@ -15,26 +68,47 @@
   overflow: hidden;
 
   display: flex;
-  align-items: stretch;
+  /* align-items: stretch; */
   gap: 15px;
 }
 
 .sideContent {
   flex: 2;
-  background-color: #659999;
+  background-color: var(--greenColor);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: var(--borderRadius8);
   text-align: center;
   display: flex;
   align-items: center;
   transition: all 0.5s ease-in-out;
+
+  animation: pulse 2s infinite;
+
+  font-family: var(--fontRobotoSlabLight400);
+  font-weight: var(--fontWeight400);
+  font-size: var(--fontSize16);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 100, 100, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 100, 100, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 100, 100, 0.7);
+  }
 }
 
 .sideContent:hover {
-  background-color: #292929;
+  background-color: var(--darkColor);
   color: #ce9233;
-  letter-spacing: 1px;
+  letter-spacing: var(--spacing1);
 }
 
 .mapWrapper {

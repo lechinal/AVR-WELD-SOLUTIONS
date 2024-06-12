@@ -92,6 +92,10 @@ img {
   --fontSize50: 50px;
   --fontSize70: 70px;
 
+  /** Spacing */
+  --spacing1: 1px;
+  --spacing2: 2px;
+
   /** Line height */
   --lineHeight32: 32px;
 
@@ -105,6 +109,11 @@ img {
   /** Colors */
   --primaryColor: #ce9233;
   --lightColor: #fff;
+  --lightColor2: #f9f8f7;
   --darkColor: #181614;
+  --blackColor: black;
   --textColor: #797672;
+  --sectionColor: #dadce0;
+  --paleSilver: #c4beb9;
+  --greenColor: #659999;
 }

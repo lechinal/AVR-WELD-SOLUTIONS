@@ -5,8 +5,9 @@ import styles from "./App.module.css";
 
 import Header from "components/Header/Header";
 import Footer from "components/Footer/Footer";
+// import ProjectSection from "components/ProjectSection/ProjectSection";
 import { Loader } from "components/Loader/Loader";
-// import Comercial from "components/Comercial/Comercial";
+import Comercial from "components/Comercial/Comercial";
 
 const Home = lazy(() => import("pages/Home/Home"));
 const AboutUs = lazy(() => import("pages/AboutUs/AboutUs"));
@@ -16,9 +17,6 @@ const Contact = lazy(() => import("pages/Contact/Contact"));
 const Details = lazy(() => import("pages/Details/Details"));
 const Projects = lazy(() => import("pages/Projects/Projects"));
 const NotFound = lazy(() => import("pages/NotFound/NotFound"));
-
-// ! test
-const Comercial = lazy(() => import("components/Comercial/Comercial"));
 
 export const App = () => {
   return (

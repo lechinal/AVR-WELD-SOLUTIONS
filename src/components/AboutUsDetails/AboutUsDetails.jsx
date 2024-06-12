@@ -54,12 +54,12 @@ function AboutUsDetails() {
       <div className={styles.btnBox}>
         <CustomButton
           text="Contact"
-          textColor="black"
+          textColor="white"
           bgColor="#ce9233"
           borderColor="white"
           fontWeight={700}
           transition="all 0.5s ease-in-out"
-          hoverTextColor="#fff"
+          hoverTextColor="#ce9233"
           hoverBgColor="black"
           marginBottom="25px"
           pdL="30px"

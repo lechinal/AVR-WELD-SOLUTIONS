@@ -55,8 +55,13 @@
   width: calc(30% - 200px);
 }
 
-.right h2 {
+.rightTitle h2 {
   text-transform: uppercase;
+}
+.rightTitle h2 {
+  border-bottom: 2px solid var(--primaryColor);
+  display: inline-block;
+  padding-bottom: 5px;
 }
 .right p {
   color: #818a91;
@@ -82,8 +87,13 @@
   flex-direction: column;
   gap: 15px;
 }
-.advantages h3 {
+.advTitle h3 {
   text-transform: uppercase;
+}
+.advTitle h3 {
+  border-bottom: 2px solid var(--primaryColor);
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .box:hover {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import styles from "./Comercial.module.css";
 
 import logoWname from "../../images/logoAVR-wName.png";
-// import ToolsImg from "components/ToolsImg/ToolsImg";
 
 function Comercial() {
   const [numImages, setNumImages] = useState(6);
@@ -46,7 +45,6 @@ function Comercial() {
       <div className={styles.comercial}>
         <div className={styles.imgContainer}>{images}</div>
       </div>
-      {/* <ToolsImg /> */}
     </>
   );
 }

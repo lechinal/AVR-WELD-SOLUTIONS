@@ -44,14 +44,16 @@ function Projects() {
           </div>
 
           <div className={styles.right}>
-            <div>
+            <div className={styles.rightTitle}>
               <h2>{project.name}</h2>
             </div>
             <div>
               <p>{project.description}</p>
             </div>
             <div className={styles.advantages}>
-              <h3>Avantaje</h3>
+              <div className={styles.advTitle}>
+                <h3>Avantaje</h3>
+              </div>
               <p>{project.advantages}</p>
             </div>
           </div>

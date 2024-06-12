@@ -1,15 +1,11 @@
 import styles from "./Quality.module.css";
 
-// import QImg from "../../images/quality/Q-img1.png";
-// import QImg2 from "../../images/quality/Q-img2.png";
 import QImg3 from "../../images/quality/Q-img3.png";
 
 function Quality() {
   return (
     <section className={styles.qualitySection}>
       <div className={styles.imgContainer}>
-        {/* <img src={QImg} alt="sudor" width={500} height={500} /> */}
-        {/* <img src={QImg2} alt="sudor" width={500} height={500} /> */}
         <img src={QImg3} alt="sudor" width={500} height={500} />
       </div>
       <div className={styles.qualityContainer}>

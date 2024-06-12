@@ -1,5 +1,5 @@
 .qualitySection {
-  background-color: black;
+  background-color: var(--blackColor);
   color: white;
   display: flex;
   flex-direction: row;

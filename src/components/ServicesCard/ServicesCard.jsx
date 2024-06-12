@@ -6,7 +6,7 @@ import servicesData from "../../data/servicesData";
 function ServicesCard() {
   const navigate = useNavigate("");
   return (
-    <div>
+    <section>
       <div className={styles.cards}>
         {servicesData.map((service, index) => (
           <div key={index} className={styles.card}>
@@ -42,7 +42,7 @@ function ServicesCard() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

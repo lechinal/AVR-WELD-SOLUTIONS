@@ -13,6 +13,7 @@
 }
 .imgContainer img {
   opacity: 0.6;
+  transition: all 0.3s ease-in-out;
 }
 .imgContainer img:hover {
   cursor: pointer;
