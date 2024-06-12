@@ -24,7 +24,7 @@ function AboutUs() {
 
       <div className={styles.buttons}>
         <CustomButton
-          text="Contact"
+          text="Galerie"
           textColor="black"
           bgColor="white"
           borderColor="white"
@@ -37,7 +37,7 @@ function AboutUs() {
           pdR="30px"
           pdT="15px"
           pdB="15px"
-          onClick={() => navigate("/Contact")}
+          onClick={() => navigate("/Gallery")}
         />
         <CustomButton
           text="Servicii"
@@ -56,7 +56,7 @@ function AboutUs() {
           onClick={() => navigate("/Services")}
         />
         <CustomButton
-          text="Galerie"
+          text="Contact"
           textColor="black"
           bgColor="white"
           borderColor="white"
@@ -69,7 +69,7 @@ function AboutUs() {
           pdR="30px"
           pdT="15px"
           pdB="15px"
-          onClick={() => navigate("/Gallery")}
+          onClick={() => navigate("/Contact")}
         />
       </div>
     </section>

@@ -1,12 +1,12 @@
 .titleFirstPart {
   height: 100px;
 
-  background: linear-gradient(to right, #659999, #f4791f);
+  background-color: #659999;
 }
 
 .welcomeSection {
-  background-image: url("images/desktopImg/HomepageImg-D.png"),
-    linear-gradient(to right, #659999, #f4791f);
+  background-image: url("images/desktopImg/HomepageImg-D.png");
+  background-color: #659999;
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -63,11 +63,12 @@
   display: flex;
   justify-content: space-around;
 
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
 
   text-align: center;
 
-  background: linear-gradient(to right, #659999, #f4791f);
+  /* background: linear-gradient(to right, #659999, #f4791f); */
+  background-color: #659999;
 }
 
 .images {
@@ -80,10 +81,12 @@
 
 .images h4 {
   font-family: var(--fontRobotoLight300);
+  color: var(--lightColor);
+  font-size: 18px;
 }
 .images h4:hover {
-  /* color: #ce9233; */
-  color: #fff;
+  color: #ce9233;
+  color: var(--darkColor);
 }
 
 .images img {
@@ -103,7 +106,8 @@
   padding-bottom: 20px;
 
   /* background-color: #fff5f6; */
-  background: linear-gradient(to right, #659999, #f4791f);
+  /* background: linear-gradient(to right, #659999, #f4791f); */
+  background-color: #659999;
 }
 
 /* Responsive */

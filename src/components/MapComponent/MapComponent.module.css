@@ -1,0 +1,43 @@
+.mapSection {
+  background-color: #ce9233;
+  padding: 35px 0 35px 0;
+
+  /* display: flex;
+  justify-content: center; */
+}
+
+.mapContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  border-radius: 15px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.sideContent {
+  flex: 2;
+  background-color: #659999;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.sideContent:hover {
+  background-color: #292929;
+  color: #ce9233;
+  letter-spacing: 1px;
+}
+
+.mapWrapper {
+  flex: 9;
+  height: 100%;
+}

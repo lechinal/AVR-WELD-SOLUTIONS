@@ -27,7 +27,7 @@ function ContactForm() {
         method="POST"
         className={styles.form}
       >
-        <label for="full-name">Nume complet:</label>
+        <label htmlFor="full-name">Nume complet:</label>
         <input
           className={styles.inputField}
           placeholder=" Nume si prenume..."
@@ -36,7 +36,7 @@ function ContactForm() {
           value={formData.name}
           onChange={handleChange}
         />
-        <label for="email-address">Adresa de email:</label>
+        <label htmlFor="email-address">Adresa de email:</label>
         <input
           className={styles.inputField}
           placeholder=" email@domain.tld"
@@ -45,7 +45,7 @@ function ContactForm() {
           value={formData.email}
           onChange={handleChange}
         />
-        <label for="message">Mesaj:</label>
+        <label htmlFor="message">Mesaj:</label>
         <textarea
           className={styles.textarea}
           placeholder=" Mesajul tau aici..."

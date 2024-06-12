@@ -11,7 +11,6 @@ import HeroSection from "components/HeroSection/HeroSection";
 import ProjectSection from "components/ProjectSection/ProjectSection";
 import Quality from "components/Quality/Quality";
 
-
 function Home() {
   const navigate = useNavigate("");
 
@@ -53,7 +52,7 @@ function Home() {
         </section>
         <div className={styles.btn}>
           <CustomButton
-            text="Contact"
+            text="Galerie"
             textColor="black"
             bgColor="white"
             borderColor="white"
@@ -65,14 +64,13 @@ function Home() {
             pdR="30px"
             pdT="15px"
             pdB="15px"
-            onClick={() => navigate("/Contact")}
+            onClick={() => navigate("/Gallery")}
           />
         </div>
       </section>
       <HeroSection />
       <ProjectSection />
       <Quality />
-     
     </>
   );
 }

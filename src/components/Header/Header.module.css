@@ -9,8 +9,8 @@
   /* background-color: #00a8e8; */
 
   /* background-color: #659999; */
-  background: linear-gradient(to left, #659999, #f4791f);
-
+  /* background: linear-gradient(to left, #659999, #f4791f); */
+  background-color: #ce9233;
   /* border-bottom: 1px solid; */
 
   /* position: sticky;
@@ -77,10 +77,10 @@
 }
 
 .element a.active {
-  border: 3px solid #ce9233;
+  border: 3px solid #659999;
   border-radius: 15px;
   padding: 10px 20px;
-
+  background-color: #659999;
   box-shadow: 0 2px 4px#fff;
 }
 

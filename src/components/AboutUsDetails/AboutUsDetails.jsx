@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
+import CustomButton from "components/CustomButton/CustomButton";
 import styles from "./AboutUsDetails.module.css";
-
 function AboutUsDetails() {
+  const navigate = useNavigate("");
   return (
     <div className={styles.detailsText}>
       <h3>AVR Weld Solutions</h3>
@@ -49,6 +51,24 @@ function AboutUsDetails() {
         Contactați-ne astăzi pentru a discuta despre proiectul dumneavoastră și
         pentru a afla cum vă putem ajuta să vă atingeți obiectivele industriale!
       </p>
+      <div className={styles.btnBox}>
+        <CustomButton
+          text="Contact"
+          textColor="black"
+          bgColor="#ce9233"
+          borderColor="white"
+          fontWeight={700}
+          transition="all 0.5s ease-in-out"
+          hoverTextColor="#fff"
+          hoverBgColor="black"
+          marginBottom="25px"
+          pdL="30px"
+          pdR="30px"
+          pdT="15px"
+          pdB="15px"
+          onClick={() => navigate("/Contact")}
+        />
+      </div>
     </div>
   );
 }

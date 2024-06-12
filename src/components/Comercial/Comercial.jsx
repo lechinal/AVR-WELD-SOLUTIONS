@@ -22,7 +22,7 @@ function Comercial() {
     } else {
       setNumImages(1);
     }
-    console.log(screenWidth);
+    // console.log(screenWidth);
   };
 
   useEffect(() => {
