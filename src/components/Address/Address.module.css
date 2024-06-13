@@ -1,24 +1,82 @@
 .addressSection {
-  margin-top: 30px;
-}
-.addressTitle div {
-  color: #ce9233;
-  border: 3px solid #ce9233;
+  padding: 35px 0 35px 0;
+  height: 100%;
 
+  background-color: var(--darkColor);
+}
+
+.addressTitleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.addressTitle {
+  font-family: var(--fontRobotoSlabLight400);
   font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  display: inline-block;
-  padding: 5px 20px;
+  font-weight: var(--fontWeight500);
+  color: white;
+  text-align: center;
+  border: 4px solid white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 250px;
+
+  text-transform: uppercase;
+
+  transition: all 0.5s ease-in-out;
+  animation: colorsChange 2s infinite;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.addressTitle h1 {
+/** .addressTitleBox div Animation */
+
+@keyframes colorsChange {
+  0% {
+    color: var(--primaryColor);
+    border: 4px solid var(--primaryColor);
+  }
+  50% {
+    color: var(--lightColor);
+    border: 4px solid var(--lightColor);
+  }
+  100% {
+    color: var(--greenColor);
+    border: 4px solid var(--greenColor);
+  }
+}
+
+.addressTitle:hover {
+  color: var(--primaryColor);
+  border: 4px solid var(--primaryColor);
+}
+
+.addressTitle:hover {
+  animation: none;
+}
+
+/** .addressTitleBox div Animation */
+
+.detailsTitle h1 {
   font-size: 50px;
   line-height: 60px;
+  color: white;
+
+  border-bottom: 2px solid var(--primaryColor);
+  display: inline-block;
 }
 
-.addressTitle p {
+.detailsTitle p {
   color: #797672;
+  color: white;
+
+  padding-bottom: 10px;
 }
 
 .detailsBox {
@@ -27,16 +85,65 @@
   justify-content: left;
   align-items: left;
   gap: 20px;
+  text-align: left;
 
-  margin-top: 30px;
+  margin: 30px 0 30px 0;
 }
+
+.details {
+  /* border: 2px solid var(--primaryColor); */
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .phoneBox,
 .emailBox,
 .locationBox {
   display: flex;
-  justify-content: center;
-  align-items: left;
   gap: 20px;
+  color: var(--primaryColor);
+
+  position: relative;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.phoneBox:hover,
+.emailBox:hover,
+.locationBox:hover {
+  color: white;
+}
+
+.phoneBox:hover .detailsIcons,
+.emailBox:hover .detailsIcons,
+.locationBox:hover .detailsIcons {
+  color: white;
+}
+
+.phoneBox::after,
+.emailBox::after,
+.locationBox::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Începe de la mijloc */
+  width: 0; /* Lățimea inițială */
+  border-bottom: 2px solid white;
+  transform: translateX(-50%); /* Aliniază centrul la mijloc */
+  animation: borderAnimation 2s ease-in-out infinite; /* Animație continuă */
+}
+
+@keyframes borderAnimation {
+  0%,
+  100% {
+    width: 0; /* La început și la sfârșit, lățimea este zero */
+  }
+  50% {
+    width: 100%; /* La mijlocul animației, lățimea este 100% */
+  }
 }
 
 .phoneBox div,
@@ -45,5 +152,11 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  gap: 5px;
+  gap: 10px;
+
+  padding-bottom: 10px;
+}
+
+.detailsIcons {
+  color: var(--primaryColor);
 }

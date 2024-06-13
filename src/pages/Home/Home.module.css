@@ -67,7 +67,6 @@
 
   text-align: center;
 
-  /* background: linear-gradient(to right, #659999, #f4791f); */
   background-color: #659999;
 }
 
@@ -93,11 +92,9 @@
   border: 3px groove #605c3c;
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
-}
 
-/* .text p {
-  font-size: 27px;
-} */
+  margin-top: 15px;
+}
 
 .btn {
   display: flex;

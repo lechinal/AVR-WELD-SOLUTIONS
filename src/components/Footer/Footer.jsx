@@ -76,7 +76,7 @@ function Footer() {
             <span>
               <img src={listBullet} alt="bullet" width={5} />
               <NavLink to="/About" className={styles.link}>
-                About us
+                About Us
               </NavLink>
             </span>
 

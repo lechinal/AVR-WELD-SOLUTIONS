@@ -7,7 +7,7 @@ import welding3 from "../../images/toolsImg/welding3.svg";
 import welding4 from "../../images/toolsImg/welding4.svg";
 import welding5 from "../../images/toolsImg/welding5.svg";
 import welding6 from "../../images/toolsImg/welding6.svg";
-import welding7 from "../../images/toolsImg/welding7.svg";
+// import welding7 from "../../images/toolsImg/welding7.svg";
 import welding8 from "../../images/toolsImg/welding8.svg";
 import welding9 from "../../images/toolsImg/welding9.svg";
 import welding10 from "../../images/toolsImg/welding10.svg";

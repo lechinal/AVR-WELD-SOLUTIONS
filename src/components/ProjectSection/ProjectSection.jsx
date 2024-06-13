@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import CustomButton from "components/CustomButton/CustomButton";
 import styles from "./ProjectSection.module.css";
 import Form from "components/ContactForm/Form/Form";
 
 function ProjectSection() {
-  const navigate = useNavigate("");
+  // const navigate = useNavigate("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {

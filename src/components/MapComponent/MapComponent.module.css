@@ -35,8 +35,8 @@
 
 @keyframes colorsChange {
   0% {
-    color: var(--darkColor);
-    border: 4px solid var(--darkColor);
+    color: var(--primaryColor);
+    border: 4px solid var(--primaryColor);
   }
   50% {
     color: var(--lightColor);

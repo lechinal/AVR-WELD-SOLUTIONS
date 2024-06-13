@@ -50,6 +50,7 @@ function Home() {
             <img src={solutii} alt={solutii} width={450} height={450} />
           </div>
         </section>
+
         <div className={styles.btn}>
           <CustomButton
             text="Galerie"
@@ -65,9 +66,11 @@ function Home() {
             pdT="15px"
             pdB="15px"
             onClick={() => navigate("/Gallery")}
+            transition={"all 0.5s ease-in-out"}
           />
         </div>
       </section>
+
       <HeroSection />
       <ProjectSection />
       <Quality />
