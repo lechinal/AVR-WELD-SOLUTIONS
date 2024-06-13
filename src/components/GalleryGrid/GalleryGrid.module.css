@@ -1,6 +1,8 @@
 .galleryContainer {
   display: flex;
-  justify-content: center; /* Aliniază `.imageContainer` în centru pe axa orizontală */
+  justify-content: center;
+
+  background-color: #dadce0;
 }
 
 .imageContainer {
